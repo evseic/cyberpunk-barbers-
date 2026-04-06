@@ -1,0 +1,16 @@
+{
+  "name": "cyberpunk-barbers",
+  "version": "1.0.0",
+  "description": "Cyberpunk Barbershop Static Website",
+  "main": "generate_site.js",
+  "scripts": {
+    "build": "node generate_site.js",
+    "start": "npx serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-git": "^1.37.4"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "seo": {
+    "siteName": "Cyberpunk Barbers",
+    "home": {
+      "title": "Cyberpunk Barbers | Vyrų kirpykla Vilniaus Naujamiestyje",
+      "description": "Profesionalus vyrų kirpimas ir barzdos formavimas Vilniuje. Kirpimas nuo 30€, barzdos nuo 25€, combo nuo 45€. Užsiregistruok per Treatwell!",
+      "canonical": "/lt/"
+    },
+    "services": {
+      "title": "Paslaugos | Kirpimas ir barzdos formavimas – Cyberpunk Barbers",
+      "description": "Vyrų kirpimas nuo 30€, barzdos kirpimas nuo 25€, combo nuo 45€. Rezervuok laiką Vilniuje per Treatwell.",
+      "canonical": "/lt/paslaugos/"
+    },
+    "about": {
+      "title": "Apie mus | Cyberpunk Barbers – Unikali kirpykla Vilniuje",
+      "description": "Cyberpunk Barbers – unikali vyrų kirpykla Vilniaus Naujamiestyje su patyrusia komanda ir cyberpunk atmosfera.",
+      "canonical": "/lt/apie-mus/"
+    },
+    "contact": {
+      "title": "Kontaktai | Cyberpunk Barbers Vilnius, Naujamiestis",
+      "description": "Rask mus Vilniaus Naujamiestyje. Rezervuok laiką per Treatwell, adresas ir darbo laikas.",
+      "canonical": "/lt/kontaktai/"
+    },
+    "alts": {
+      "haircut": "Vyrų kirpimas Cyberpunk Barbers Vilnius",
+      "beard": "Barzdos formavimas kirpykla Vilnius",
+      "shop": "Cyberpunk Barbers kirpykla Vilniaus Naujamiestyje"
+    },
+    "og": {
+      "type": "website",
+      "locale": "lt_LT",
+      "image": "/assets/og-image.jpg"
+    }
+  },
+  "nav": {
+    "services": "Paslaugos",
+    "barbers": "Meistrai",
+    "gallery": "Galerija",
+    "reviews": "Atsiliepimai",
+    "book": "Registruotis",
+    "bookMobile": "Registruotis dabar"
+  },
+  "hero": {
+    "eyebrow": "Įkurta 2024 · Vilnius, Lietuva",
+    "title1": "ČIA TU GAUNI DAUGIAU",
+    "title2": "NEI KIRPIMĄ.",
+    "sub": "Gauni pilną upgrade'ą. Barbershopas, kuris pagauna vaibą, meistrai, kurie žino, ką daro. Visai kitas lygis.",
+    "ctaBook": "Registruotis dabar",
+    "ctaSee": "Pajusk Vaibą",
+    "scroll": "Slinkti"
+  },
+  "ticker": {
+    "item1": "Kirpimai",
+    "item2": "Idealios Barzdos",
+    "item3": "Aukščiausias Lygis",
+    "item4": "Vilniaus Geriausi",
+    "item5": "Užsirašyk Jau Dabar",
+    "item6": "Fade Meistrai",
+    "item7": "Karštas Rankšluostis",
+    "item8": "Nuo 2024"
+  },
+  "stats": {
+    "cutsDone": "Atlikti Kirpimai",
+    "satisfaction": "Klientų Pasitenkinimas",
+    "masterBarbers": "Pro Meistrai",
+    "location": "Lokacija — Vilnius"
+  },
+  "barbersHeader": {
+    "eyebrow": "Mūsų Komanda",
+    "title1": "SUSIPAŽINK SU",
+    "title2": "MEISTRAIS",
+    "sub": "Šešios skirtingos asmenybės. Viena bendra taisyklė — atrodysi taip, kaip privalo atrodyti vyras."
+  },
+  "barbersDesc": {
+    "nedas": {
+      "role": "Vyr. Meistras",
+      "short": "Visada aštru, visada į dešimtuką. Nedas viską daro idealiai.",
+      "book": "Registruotis pas Nedą",
+      "ig": "https://www.instagram.com/nedasbarber/",
+      "bio": "<p>Nedas. OG iš Šiaulių. Pankų pankas. Cyber Punk Barbers įkūrėjas.</p><p>Cyber Punk – jo kraujas. Nuo pirmos plytos, nuo pirmos kėdės. Ne studija, o vieta su charakteriu. Kaip ir jis pats.</p><p>Kerpa nuo tada, kai pasaulis pradėjo trūkinėti – nuo 2008-ųjų, kai krizė nušlavė kostiumus nuo ofisų stalų. Vietoj darbų vadovo kėdės – žirklės į rankas. Ir nuo tada – nesustojo. 17 metų už kėdės.</p><p>Jei dar nesi buvęs pas jį – dar nesi buvęs pas tikrą barberį. Nedas nešvaisto nei tavo laiko, nei žodžių. Kirpimas – kaip dūžis: greitas, tikslus, su charakteriu. Pokalbiai – jei yra apie ką. Tyla – jei geriau be jos. Vienas kitas keiksmažodis. Po kirpimo dažniausiai išgirsta vieną žodį: „Zajabys.“</p><p>Savo kėdėj turi vieną nerašytą taisyklę: „Velnias slepiasi detalėse. Arba Dieve.“</p><p>Jei netyčia užmigsi – nepergyvenk. Jis vis tiek kirps. Ir kirps gerai.</p><p>Ateik. Pabandyk. Laikas keistis – yra dabar.</p>"
+    },
+    "denis": {
+      "role": "Stiliaus Inžinierius",
+      "short": "Gera energija ir patys švariausi fade'ai. Denis puikiai žino, kas tau tinka.",
+      "book": "Registruotis pas Denis",
+      "ig": "https://www.instagram.com/denio.laboratory/",
+      "bio": "<p>@denio.laboratory - vietoj ratų balansavimo pasirinko žmonių galvas – Denis paliko garažą ir suprato, kad kirpėjo kėdė jam arčiau širdies. Kadaise buvo automechanikas, bet vieną dieną susipyko su vadovu, rūkydamas lauke prisiminė, kad būdamas penkiolikos kirpo senelį bei brolį. Tą patį vakarą paskambino į kirpyklą, papasakojo savo istoriją ir jį priėmė. Pirmoji kėdė buvo Gedimino prospekte – ten mokė ukrainietis, vėliau sutiko Nedą, mūsų barberinės gangsterį, kuris tapo tikru mokytoju. Ir taip prasidėjo – 7 metai už kėdės.</p><p>Šiandien jis sako: barberystė – ne darbas, o gyvenimo būdas. Jis mato save kerpantį visą gyvenimą. Čia nėra ribų, kaip ir santykiuose – žmogus visada unikalus, visada kitaip. Denis subrendo per šituos metus: daug suprato apie žmones, apie žmogiškumą, apie tai, kad pagarba ir klausymas – ne triukai, o privalomi įrankiai, lygiai tokie pat svarbūs kaip žirklės.</p><p>Jo braižas? Charizma. Tos neišmokstamos kibirkšties gabalas, kurį arba turi, arba ne. Jis į darbą ateina atnešti nuotaikos, o iš kitų tikisi to paties. Savo filosofiją vadina „syntezu“ – mainais emocija už emociją. Problemų į kėdę neneša, jos lieka už durų.</p><p>Po kirpimo klientai dažniausiai pasako paprastą „ačiū“. Ir jam to užtenka. Nes čia esmė ne tik linijose ar fade’o švarume – čia apie santykį, atmosferą, apie tai, kad tu ir jis, valandai, tampat bendraminčiais.</p><p>Dėkingas tiems, kurie jį seka, keliauja kartu, keičiasi kartu. Nes barberystėj, sako, kaip gyvenime – tobulybės nėra, yra tik kelias.</p><p>Vienas sakinys tiems, kas dar nebuvę pas Denisą: „Čia ne tik kirpimas, čia sintezė.“</p>"
+    },
+    "erikas": {
+      "role": "Specialistas",
+      "short": "Švarios linijos ir klasika. Erikas susikaupęs atlieka savo darbą.",
+      "book": "Registruotis pas Eriką",
+      "ig": "https://www.instagram.com/evseicik/",
+      "bio": "<p>Erikas. Ne šventasis jis ir ne menininkas – tik vyrukas su mašinėle rankoj. 2,5 metų jau kerpa. Ne todėl, kad svajonė, o todėl, kad reikėjo bapkių. Ieškojo savęs, rado žirkles, mašinėlę ir savo vietą tarp žmonių, kurie daug nekalba.</p><p>Per tuos metus pasikeitė tiek, kiek pasikeičia žmogus, kuris kiekvieną dieną mato kitus veidus, bet pats lieka tas pats – tylus, ramus, ne ryto žmogus. Taisyklių nemėgsta, braižas paprastas: nėra jokių mandrybių, tik tiesi linija ir laisvė. Nuo kitų skiriasi tuo, kad niekam nesistengia įtikti. Ir gal dėl iš to žmonės grįžta.</p><p>Kas labiausiai veža? Kolegos, laisvė, ta ramybė tarp kirpimų, kai gali užtraukti dūmą ir pasijuokti, kad gyvenimas čia ir dabar. Muzikos nemėgsta, bet jei jau kas groja, tai Lady Gaga, nes kodėl gi ne – pasaulis vis tiek absurdiškas.</p><p>Klientas? Visi tinkami. Jei užmiegi kėdėj – jis nepažadins. Jei nekalbi – dar geriau. Po kirpimo žmonės dažniausiai ir nesako nieko. O kam? Veidrodis pasako viską.</p>"
+    },
+    "vlad": {
+      "role": "Detalių Meistras",
+      "short": "Tyli precizika. Už Vladą kalba jo rezultatai.",
+      "book": "Registruotis pas Vladą",
+      "ig": "https://www.instagram.com/vlad.arh/",
+      "bio": "<p>Vlad. @vlad.arh. Tas, kuris į barberio kelią atėjo dėl vaibooo.</p><p>Klientai ateina ne tik dėl feiduko. Jie grįžta dėl pokalbio, dėl atmosferos. Su laiku tie patys veidai virsta draugais – pasisveikina, papasakoja, kaip sekėsi kelionėje, ir išeina su „zajabys“ arba „ahuenai, kaip visad“.</p><p>Vladui patinka atviri ir drąsūs žmonės. Tie, kurie pasako, kas patinka, o kas – ne. Kritika čia nežeidžia – ji kelias į geresnį kirpimą, į augimą.</p><p>Į darbą atvažiuoja su mersu. Barberinėj pasileidžia minimal house ar techno, gurkšteli monstriuko – ir viskas aišku: letzzzz go, varom kirpti.</p><p>Paklausus, ką darytų, jei klientas užmigtų, Vlado atsakymas paprastas: „Ką, ką – kirpčiau. Tegul miega. Visiškas Relax FM vaibas.“</p>"
+    },
+    "martynas": {
+      "role": "Kūrybos Vadas",
+      "short": "Žirklių magija. Martynas kiekvieną kirpimą paverčia meno kūriniu.",
+      "book": "Registruotis pas Martyną",
+      "ig": "https://www.instagram.com/martynas_balaika/",
+      "bio": "<p>Martynas. @martynas_balaika. Penkeri metai už kėdės – ir vis dar su tuo pačiu vaibu.</p><p>Į barberystę atėjo dėl vaibo. Atvažiavo į Vilnių, užėjo į barbershopą ir pamatė – čia visi laisvi, čia nėra taisyklių. Tada ir nusprendė: čia mano vieta.</p><p>Baigė kursus Barzdaskučiuose ir Red Light Barbers, o dabar pats kuria savo ritmą – tarp hip-hopo, trap’o ir UK drill’o beatų.</p><p>Kai paleidžia klientą su šypsena ir pasako: „šiandien gausi ;)“ – žino, kad viskas padaryta teisingai. Po kirpimo dažniausiai girdi vieną žodį – „ledas.“</p><p>Jo kėdėj nėra taisyklių. Jei užmigtum – išgirsi: „Seniukai, kelkis.“ Jei sėdi pirmą kartą – žinok, čia ne grožio salonas.</p><p>Tarp kirpimų – arbatžolės, alus, juokas. Tarp minčių – svajonė turėti savo saloną. Jo braižas – laisvė, muzika ir gera energija.</p><p>Bus legit, seniuk. Visada.</p>"
+    },
+    "evaldas": {
+      "role": "Klasikos Kūrėjas",
+      "short": "Old-school klasika ir modernūs sprendimai. Geras vaibas garantuotas.",
+      "book": "Registruotis pas Evaldą",
+      "ig": "https://www.instagram.com/aktyvus/",
+      "bio": "<p>Evaldas. @aktyvus. Stažu jauniausias, bet gyvenimo jau patrintas.</p><p>Dar prieš pusmetį nemokėjo laikyti žirklių, o šiandien – jau formuoja galvas taip, lyg jos būtų marmuro luitai. Nes jo akyse kiekvienas kirpimas – skulptūra. O įrankiai – rankų pratesimas.</p><p>Į barberio kelią atėjo ieškodamas laisvės. Norėjo veiklos, kur būtų erdvės kūrybai, augimui, nuolatiniam mokymuisi. Ir rado. Dabar jis DJ, jogos mokytojas ir barberis viename – trys skirtingi pasauliai, kurie sueina į vieną: muziką, ritmą ir tikslius judesius.</p><p>Evaldo kėdėj nėra griežtų taisyklių. Tik pagarba, klausymas ir vibe’as. Idealus klientas? Visi, kurie turi plaukus. Jei užmigtum – jis nepažadins, dar apkamšys, kad ramiau ilsėtumeisi.</p><p>Kava čia liejasi kaip kuras – tiek, kad cypia ausyse. Tarp kirpimų sukasi tabakas „Golden Virginia“. Fone gali suskambėti pikta acid muzika – jo soundtrack’as kūrybai.</p><p>Ir jei dar nebuvai pas Evaldą, prisimink: pas jį ateini ne tik pasikirpti. Tu įžengi į jo erdvę. O ten tavo galva virsta drobe. Skulptūra.</p>"
+    }
+  },
+  "services": {
+    "eyebrow": "Ką Mes Darom",
+    "title1": "MŪSŲ",
+    "title2": "MENIU",
+    "sub": "Jokių sudėtingų nesąmonių. Tik trys paslaugos, bet atliktos idealiai.",
+    "cards": {
+      "1": {
+        "badge": "Populiariausias",
+        "name": "KIRPIMAS",
+        "desc": "Fade'as, plovimas ir stiliovas užbaigimas, pritaikant prie tavo veido formos ir gyvenimo stiliaus.",
+        "duration": "45 MIN",
+        "price": "nuo 30 EUR"
+      },
+      "2": {
+        "name": "BARZDOS FORMAVIMAS",
+        "desc": "Karštas rankšluostis, aliejus ir griežtos linijos. Sutvarkysim taip, kad atrodytų ledas.",
+        "duration": "30 MIN",
+        "price": "nuo 25 EUR"
+      },
+      "3": {
+        "name": "CYBER KOMBO",
+        "desc": "Kirpimas plius barzda. Įeini kaip atrodantis belekai, išeini kaip geriausia savo paties versija.",
+        "duration": "75 MIN",
+        "price": "nuo 45 EUR"
+      }
+    },
+    "cta": "Registruotis čia"
+  },
+  "gallery": {
+    "eyebrow": "Atmosfera",
+    "title1": "PAJUSK",
+    "title2": "PRIEŠ UŽSUKANT",
+    "sub": "Vieta, kur norisi pabūti ilgiau.",
+    "labels": {
+      "vibe": "Vaibas ir Nuotaika",
+      "craft": "Detalės ir Darbas",
+      "interior": "Interjero Atmosfera"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Ką Kalba",
+    "title1": "TIKRI",
+    "title2": "ATSILIEPIMAI",
+    "sub": "Mūsų darbas kalba už save. O po to kalba klientai.",
+    "badgeText": "Patikrink Treatwell ↗"
+  },
+  "booking": {
+    "eyebrow": "Rezervacija",
+    "title1": "METAS",
+    "title2": "UPGRADE'UI",
+    "sub": "Jokių eilių ir laukimo. Griebk savo laiką, kol niekas kitas nepaėmė. Meistrai užimti, o be užrašymo vietų beveik nėra.",
+    "cta": "Registruotis Treatwell"
+  },
+  "footer": {
+    "tagline": "Daugiau nei kirpimas. Tai unikalus experience'as. Užsuk atsinaujinti į geriausią atmosferą Vilniuje.",
+    "colNavigate": "Navigacija",
+    "colHours": "Darbo Laikas",
+    "hours1": "I-V: 10:00 – 20:00",
+    "hours2": "Šešt: 10:00 – 18:00",
+    "hours3": "Sekm: Nedirbame",
+    "colLocation": "Lokacija",
+    "loc1": "Švitrigailos g. 36",
+    "loc2": "Vilnius, LT-03228",
+    "loc3": "Lietuva",
+    "copy": "© 2026 Cyberpunk Barbers. Visos teisės saugomos.",
+    "city": "Vilnius, Lietuva"
+  },
+  "cookie": {
+    "policy": "Slapukų Politika",
+    "text": "Naudojame minimalius slapukus, kad svetainė veiktų kaip priklauso. Gali pasirinkti juos priimti arba atmesti.",
+    "accept": "Priimti ✓",
+    "decline": "Atmesti"
+  },
+  "modal": {
+    "book": "Registruotis dabar"
+  }
+}

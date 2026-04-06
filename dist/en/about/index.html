@@ -1,0 +1,2492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Cyberpunk Barbers – Unique Barbershop in Vilnius</title>
+<meta name="description" content="Cyberpunk Barbers is a unique men's barbershop in Vilnius Naujamiestis — experienced barbers, bold atmosphere, great results.">
+<link rel="canonical" href="https://cyberpunkbarbers.lt/en/about/">
+<link rel="alternate" hreflang="lt" href="https://cyberpunkbarbers.lt/lt/apie-mus/">
+    <link rel="alternate" hreflang="en" href="https://cyberpunkbarbers.lt/en/about/">
+    <link rel="alternate" hreflang="x-default" href="https://cyberpunkbarbers.lt/lt/">
+<meta property="og:title" content="About Us | Cyberpunk Barbers – Unique Barbershop in Vilnius">
+    <meta property="og:description" content="Cyberpunk Barbers is a unique men's barbershop in Vilnius Naujamiestis — experienced barbers, bold atmosphere, great results.">
+    <meta property="og:url" content="https://cyberpunkbarbers.lt/en/about/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cyberpunkbarbers.lt/assets/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BarberShop",
+      "name": "Cyberpunk Barbers",
+      "image": "https://cyberpunkbarbers.lt/assets/og-image.jpg",
+      "@id": "https://cyberpunkbarbers.lt/en/about/",
+      "url": "https://cyberpunkbarbers.lt/en/about/",
+      "telephone": "+37000000000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Švitrigailos g. 36",
+        "addressLocality": "Vilnius",
+        "postalCode": "03228",
+        "addressCountry": "LT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 54.6738,
+        "longitude": 25.2635
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+<link rel="icon" type="image/png" href="../../favicon.png">
+<link rel="apple-touch-icon" href="../../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --c-bg: #0a0a0a;
+    --c-bg2: #111111;
+    --c-bg3: #161616;
+    --c-primary: #00F2FF;
+    --c-secondary: #BC00FF;
+    --c-tertiary: #FED83A;
+    --c-neutral: #0A0A0A;
+    --c-text: #e8e8e8;
+    --c-muted: #666;
+    --c-border: rgba(255,255,255,0.07);
+    --font-display: 'Bebas Neue', cursive;
+    --font-body: 'DM Sans', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+    --radius: 4px;
+    --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  body {
+    background: var(--c-bg);
+    color: var(--c-text);
+    font-family: var(--font-body);
+    font-weight: 300;
+    line-height: 1.6;
+    cursor: default;
+  }
+
+  /* ── SCROLLBAR ── */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--c-bg); }
+  ::-webkit-scrollbar-thumb { background: var(--c-primary); border-radius: 2px; }
+
+  /* ── NOISE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.6;
+  }
+
+  /* ── HEADER ── */
+  header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 64px;
+    background: rgba(10,10,10,0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--c-border);
+    transition: background var(--transition);
+  }
+
+  .logo {
+    font-family: var(--font-display);
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .logo span { color: var(--c-primary); }
+
+  nav { display: flex; align-items: center; gap: 36px; }
+  nav a {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  nav a:hover { color: var(--c-text); }
+
+  .btn-primary {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--c-bg);
+    background: var(--c-primary);
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s, transform 0.15s;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  }
+  .btn-primary:hover { background: #00d4e0; transform: translateY(-1px); }
+
+  .btn-outline {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+    background: transparent;
+    border: 1px solid var(--c-primary);
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+    clip-path: polygon(100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 0);
+  }
+  .btn-outline:hover { background: rgba(0,242,255,0.05); color: #fff; border-color: #fff; }
+
+  .lang-switch { display: flex; gap: 8px; align-items: center; border-left: 1px solid var(--c-border); padding-left: 20px; margin-left: -16px; }
+  .lang-btn { background: none; border: none; color: var(--c-muted); font-family: var(--font-mono); font-size: 11px; cursor: pointer; transition: color 0.2s; padding: 0; }
+  .lang-btn.active { color: var(--c-primary); font-weight: bold; }
+  .lang-btn:hover { color: var(--c-text); }
+  .ig-link { color: var(--c-muted); transition: color 0.2s; display: inline-flex; align-items: center; margin-left: 12px; }
+  .ig-link:hover { color: var(--c-primary); }
+
+  /* ── HAMBURGER ── */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .hamburger span {
+    display: block;
+    width: 24px; height: 1.5px;
+    background: var(--c-text);
+    transition: var(--transition);
+  }
+
+  /* ── MOBILE NAV ── */
+  .mobile-nav {
+    display: none;
+    position: fixed;
+    inset: 64px 0 0 0;
+    background: rgba(10,10,10,0.97);
+    backdrop-filter: blur(20px);
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--transition);
+  }
+  .mobile-nav.open { opacity: 1; pointer-events: all; }
+  .mobile-nav a {
+    font-family: var(--font-display);
+    font-size: 48px;
+    letter-spacing: 0.06em;
+    color: var(--c-text);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .mobile-nav a:hover { color: var(--c-primary); }
+
+  /* ── SECTIONS ── */
+  section { position: relative; overflow: hidden; }
+
+  /* ── HERO ── */
+  #hero {
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 24px;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 100%, rgba(0,242,255,0.06) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 40% at 80% 20%, rgba(188,0,255,0.04) 0%, transparent 60%),
+      linear-gradient(180deg, #000 0%, #0a0a0a 50%, #050505 100%);
+  }
+
+  .hero-video-wrapper {
+    position: absolute;
+    inset: 0;
+    z-index: 1; /* Above .hero-bg, below .hero-content(which is relative/z-index 2) and .hero-grid */
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  .hero-video-wrapper.faded-out {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .hero-video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .hero-video-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .hero-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,242,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,242,255,0.03) 1px, transparent 1px);
+    background-size: 80px 80px;
+    mask-image: radial-gradient(ellipse 60% 50% at 50% 100%, black 0%, transparent 80%);
+  }
+
+  .hero-line {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, var(--c-primary) 50%, transparent 100%);
+    opacity: 0.4;
+  }
+
+  .hero-content { position: relative; z-index: 2; max-width: 900px; }
+
+  .hero-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+    margin-bottom: 24px;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.8s 0.3s forwards;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(72px, 12vw, 160px);
+    line-height: 0.92;
+    letter-spacing: 0.02em;
+    color: var(--c-text);
+    margin-bottom: 8px;
+    opacity: 0;
+    transform: translateY(24px);
+    animation: fadeUp 0.9s 0.5s forwards;
+  }
+
+  .hero-title-accent {
+    font-family: var(--font-display);
+    font-size: clamp(72px, 12vw, 160px);
+    line-height: 0.92;
+    letter-spacing: 0.02em;
+    color: var(--c-primary);
+    text-shadow: 0 0 60px rgba(0,242,255,0.3);
+    margin-bottom: 32px;
+    opacity: 0;
+    transform: translateY(24px);
+    animation: fadeUp 0.9s 0.65s forwards;
+  }
+
+  .hero-sub {
+    font-size: 17px;
+    font-weight: 300;
+    color: rgba(232,232,232,0.55);
+    max-width: 480px;
+    margin: 0 auto 48px;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.8s 0.85s forwards;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.8s 1.05s forwards;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s forwards;
+  }
+  .hero-scroll span {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+  }
+  .scroll-line {
+    width: 1px; height: 48px;
+    background: linear-gradient(to bottom, var(--c-primary), transparent);
+    animation: scrollPulse 2s infinite;
+  }
+
+  /* ── BARBERS ── */
+  #barbers {
+    padding: 120px 40px;
+    background: var(--c-bg);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .section-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: clamp(48px, 6vw, 88px);
+    line-height: 0.95;
+    letter-spacing: 0.02em;
+    color: var(--c-text);
+  }
+
+  .section-title em {
+    font-style: normal;
+    color: var(--c-secondary);
+  }
+
+  .section-sub {
+    font-size: 15px;
+    color: var(--c-muted);
+    max-width: 320px;
+    line-height: 1.7;
+  }
+
+  .barbers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .barber-card {
+    position: relative;
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .barber-photo {
+    position: absolute;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    filter: grayscale(30%) contrast(1.05);
+  }
+
+  .barber-card:hover .barber-photo {
+    transform: scale(1.05);
+    filter: grayscale(0%) contrast(1.1);
+  }
+
+  .barber-photo-placeholder {
+    width: 100%; height: 100%;
+    background: linear-gradient(160deg, #1a1a1a 0%, #0d0d0d 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: 120px;
+    color: rgba(255,255,255,0.03);
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .barber-card:hover .barber-photo-placeholder {
+    transform: scale(1.03);
+  }
+
+  .barber-avatar {
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .barber-silhouette {
+    width: 55%;
+    opacity: 0.12;
+    fill: var(--c-primary);
+    transition: opacity 0.4s;
+  }
+  .barber-card:hover .barber-silhouette { opacity: 0.2; }
+
+  .barber-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);
+    transition: opacity var(--transition);
+    z-index: 5;
+    pointer-events: none;
+  }
+
+  .barber-info {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 32px 28px;
+    transform: translateY(8px);
+    transition: transform var(--transition);
+    z-index: 6;
+  }
+
+  .barber-card:hover .barber-info { transform: translateY(0); }
+
+  .barber-role {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--c-secondary);
+    margin-bottom: 6px;
+  }
+
+  .barber-name {
+    font-family: var(--font-display);
+    font-size: 38px;
+    letter-spacing: 0.04em;
+    color: var(--c-text);
+    margin-bottom: 8px;
+  }
+
+  .barber-desc {
+    font-size: 13px;
+    color: rgba(232,232,232,0.55);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, margin 0.4s ease;
+  }
+
+  .barber-card:hover .barber-desc { max-height: 80px; }
+
+  .barber-book {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+  .barber-book::after { content: '→'; }
+  .barber-card:hover .barber-book { opacity: 1; }
+
+  .barber-accent {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+  .barber-card:hover .barber-accent { opacity: 1; }
+
+  /* ── SERVICES ── */
+  #services {
+    padding: 120px 40px;
+    background: var(--c-bg2);
+  }
+
+  .services-container { max-width: 1200px; margin: 0 auto; }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-top: 0;
+  }
+
+  .service-card {
+    background: var(--c-bg3);
+    padding: 40px 36px;
+    position: relative;
+    overflow: hidden;
+    transition: background var(--transition);
+    border-bottom: 1px solid var(--c-border);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--c-primary), transparent);
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+
+  .service-card:hover { background: #1a1a1a; }
+  .service-card:hover::before { opacity: 1; }
+
+  .service-number {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--c-muted);
+    margin-bottom: 24px;
+  }
+
+  .service-icon {
+    width: 40px; height: 40px;
+    margin-bottom: 24px;
+    color: var(--c-primary);
+  }
+
+  .service-name {
+    font-family: var(--font-display);
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    margin-bottom: 12px;
+    color: var(--c-text);
+  }
+
+  .service-desc {
+    font-size: 14px;
+    color: var(--c-muted);
+    line-height: 1.7;
+    margin-bottom: 32px;
+    flex-grow: 1;
+  }
+
+  .service-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    border-top: 1px solid var(--c-border);
+  }
+
+  .service-duration {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: var(--c-muted);
+  }
+
+  .service-price {
+    font-family: var(--font-display);
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    color: var(--c-primary);
+  }
+
+  .service-cta {
+    margin-top: 24px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--c-text);
+    text-decoration: none;
+    opacity: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: opacity var(--transition), color 0.2s;
+  }
+  .service-cta::after { content: '→'; }
+  .service-card:hover .service-cta { opacity: 1; }
+  .service-cta:hover { color: var(--c-primary); }
+
+  .service-card.featured {
+    background: linear-gradient(135deg, #0d1f20 0%, #0a0a12 100%);
+    border: 1px solid rgba(0,242,255,0.15);
+  }
+  .service-card.featured::before { opacity: 0.6; }
+
+  .service-badge {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--c-bg);
+    background: var(--c-primary);
+    padding: 4px 10px;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 36px;
+  }
+
+  /* ── GALLERY ── */
+  #gallery {
+    padding: 120px 40px;
+    background: var(--c-bg);
+  }
+
+  .gallery-container { max-width: 1200px; margin: 0 auto; }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 280px);
+    gap: 2px;
+    margin-top: 64px;
+  }
+
+  .gallery-item {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .gallery-item:nth-child(1) { grid-column: span 5; grid-row: span 2; }
+  .gallery-item:nth-child(2) { grid-column: span 4; }
+  .gallery-item:nth-child(3) { grid-column: span 3; }
+  .gallery-item:nth-child(4) { grid-column: span 3; }
+  .gallery-item:nth-child(5) { grid-column: span 4; }
+
+  .gallery-photo {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    filter: grayscale(20%) contrast(1.05);
+  }
+
+  .gallery-item:hover .gallery-photo {
+    transform: scale(1.06);
+    filter: grayscale(0%);
+  }
+
+  .gallery-fill {
+    width: 100%; height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .gallery-item:hover .gallery-fill { transform: scale(1.04); }
+
+  .gallery-fill-1 { background: linear-gradient(135deg, #0d1a1a 0%, #051010 60%, #000 100%); }
+  .gallery-fill-2 { background: linear-gradient(135deg, #110a1a 0%, #08050f 60%, #000 100%); }
+  .gallery-fill-3 { background: linear-gradient(135deg, #1a1200 0%, #0d0900 60%, #000 100%); }
+  .gallery-fill-4 { background: linear-gradient(160deg, #050d0d 0%, #000 100%); }
+  .gallery-fill-5 { background: linear-gradient(160deg, #0d0510 0%, #000 100%); }
+
+  .gallery-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity var(--transition);
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+  }
+
+  .gallery-item:hover .gallery-overlay { opacity: 1; }
+
+  .gallery-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--c-primary);
+  }
+
+  .gallery-accent-line {
+    position: absolute;
+    top: 16px; left: 16px;
+    width: 40px; height: 2px;
+    background: var(--c-primary);
+    opacity: 0.4;
+  }
+
+  .gallery-accent-circle {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px; height: 80px;
+    border: 1px solid rgba(0,242,255,0.08);
+    border-radius: 50%;
+  }
+
+  /* ── REVIEWS ── */
+  #reviews {
+    padding: 120px 40px;
+    background: var(--c-bg2);
+  }
+
+  .reviews-container { max-width: 1200px; margin: 0 auto; }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 64px;
+  }
+
+  .review-card {
+    background: var(--c-bg3);
+    padding: 36px 32px;
+    border: 1px solid var(--c-border);
+    position: relative;
+    transition: border-color var(--transition), transform var(--transition);
+  }
+
+  .review-card:hover {
+    border-color: rgba(0,242,255,0.2);
+    transform: translateY(-4px);
+  }
+
+  .review-card::before {
+    content: '"';
+    font-family: var(--font-display);
+    font-size: 120px;
+    line-height: 1;
+    position: absolute;
+    top: -16px; left: 24px;
+    color: rgba(0,242,255,0.05);
+    pointer-events: none;
+  }
+
+  .review-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    color: var(--c-tertiary);
+    font-size: 14px;
+  }
+
+  .review-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: rgba(232,232,232,0.8);
+    margin-bottom: 28px;
+    font-style: italic;
+  }
+
+  .review-author {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .review-avatar {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--c-primary), var(--c-secondary));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: 18px;
+    color: var(--c-bg);
+    flex-shrink: 0;
+  }
+
+  .review-name {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: var(--c-text);
+    margin-bottom: 2px;
+  }
+
+  .review-barber {
+    font-size: 12px;
+    color: var(--c-muted);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #000;
+    border-top: 1px solid var(--c-border);
+    padding: 64px 40px 40px;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 64px;
+  }
+
+  .footer-logo {
+    font-family: var(--font-display);
+    font-size: 28px;
+    letter-spacing: 0.06em;
+    color: var(--c-text);
+    margin-bottom: 16px;
+  }
+
+  .footer-logo span { color: var(--c-primary); }
+
+  .footer-tagline {
+    font-size: 14px;
+    color: var(--c-muted);
+    line-height: 1.7;
+    max-width: 280px;
+    margin-bottom: 24px;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 16px;
+  }
+
+  .social-link {
+    width: 36px; height: 36px;
+    border: 1px solid var(--c-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-muted);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .social-link:hover { border-color: var(--c-primary); color: var(--c-primary); }
+
+  .footer-col-title {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+  }
+
+  .footer-links li a, .footer-links li {
+    font-size: 14px;
+    color: rgba(232,232,232,0.5);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-links li a:hover { color: var(--c-text); }
+
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid var(--c-border);
+  }
+
+  .footer-copy {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--c-muted);
+  }
+
+  .footer-location {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--c-muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer-location::before { content: '📍'; font-size: 12px; }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.4; transform: scaleY(1); }
+    50% { opacity: 1; transform: scaleY(1.1); }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+
+  /* ── TICKER ── */
+  .ticker-wrap {
+    overflow: hidden;
+    background: var(--c-primary);
+    padding: 12px 0;
+    position: relative;
+  }
+
+  .ticker-track {
+    display: flex;
+    gap: 0;
+    animation: ticker 20s linear infinite;
+    white-space: nowrap;
+  }
+
+  .ticker-item {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--c-bg);
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ticker-item::after {
+    content: '✦';
+    opacity: 0.4;
+  }
+
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ── COUNTER STRIP ── */
+  .counter-strip {
+    background: var(--c-bg2);
+    border-top: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-border);
+    padding: 48px 40px;
+  }
+
+  .counter-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+
+  .counter-item {
+    text-align: center;
+    padding: 0 24px;
+    border-right: 1px solid var(--c-border);
+  }
+
+  .counter-item:last-child { border-right: none; }
+
+  .counter-num {
+    font-family: var(--font-display);
+    font-size: 64px;
+    line-height: 1;
+    color: var(--c-text);
+    margin-bottom: 4px;
+  }
+
+  .counter-num span { color: var(--c-primary); }
+
+  .counter-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+  }
+
+  /* ── COOKIE BANNER ── */
+  .cookie-banner {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(120%);
+    width: calc(100% - 48px);
+    max-width: 480px;
+    background: rgba(10,10,10,0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0,242,255,0.2);
+    padding: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    opacity: 0;
+  }
+  .cookie-banner.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+  .cookie-text {
+    font-size: 13px;
+    color: var(--c-muted);
+    line-height: 1.6;
+  }
+  .cookie-text strong {
+    color: var(--c-text);
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+  }
+  .cookie-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+  }
+  .btn-cookie {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+  }
+  .btn-cookie-accept {
+    background: var(--c-primary);
+    color: var(--c-bg);
+  }
+  .btn-cookie-accept:hover {
+    background: #00d4e0;
+  }
+  .btn-cookie-decline {
+    background: transparent;
+    color: var(--c-text);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .btn-cookie-decline:hover {
+    border-color: var(--c-primary);
+    color: var(--c-primary);
+  }
+
+  /* ── BARBER MODAL ── */
+  .barber-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--transition);
+  }
+  .barber-modal::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 5, 5, 0.85);
+    backdrop-filter: blur(12px);
+  }
+  .barber-modal.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .modal-close-area {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+  .modal-content {
+    position: relative;
+    z-index: 2;
+    background: var(--c-bg2);
+    border: 1px solid rgba(0,242,255,0.15);
+    width: 100%;
+    max-width: 900px;
+    min-height: 60vh;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(20px) scale(0.98);
+    transition: transform var(--transition);
+    overflow: hidden;
+    box-shadow: 0 0 60px rgba(0,0,0,0.8);
+  }
+  .barber-modal.active .modal-content {
+    transform: translateY(0) scale(1);
+  }
+  .modal-close {
+    position: absolute;
+    top: 24px; right: 24px;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid var(--c-border);
+    color: var(--c-text);
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.2s, border-color 0.2s;
+    width: 40px; height: 40px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+  }
+  .modal-close:hover { color: var(--c-primary); border-color: var(--c-primary); }
+  .modal-left { 
+    position: relative; 
+    flex: 0 0 50%;
+    background: var(--c-bg); 
+  }
+  .modal-left img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+    filter: grayscale(20%) contrast(1.05);
+  }
+  .modal-right {
+    flex: 1 1 50%;
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+    min-height: 0;
+  }
+  @media (max-width: 768px) {
+    .modal-content {
+      flex-direction: column;
+      min-height: auto;
+      max-height: 90vh;
+      overflow: hidden;
+      max-width: 480px;
+    }
+    .modal-left { 
+      flex: 0 0 auto;
+      aspect-ratio: 16/9; 
+    }
+    .modal-right { 
+      flex: 1 1 auto;
+      padding: 40px 32px; 
+      overflow-y: auto;
+      min-height: 0;
+    }
+    .modal-close { top: 16px; right: 16px; }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 1024px) {
+    .barbers-grid { grid-template-columns: repeat(2, 1fr); }
+    .services-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+    }
+    .gallery-item { grid-column: span 1 !important; grid-row: span 1 !important; aspect-ratio: 4/3; }
+    .reviews-grid { grid-template-columns: 1fr 1fr; }
+    .footer-top { grid-template-columns: 1fr 1fr; }
+    .counter-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .counter-item { border-right: none; }
+  }
+
+  @media (max-width: 768px) {
+    header { padding: 0 20px; }
+    nav, header .btn-primary:not(.mobile-show) { display: none; }
+    .hamburger { display: flex; }
+    .mobile-nav { display: flex; }
+    #hero, #barbers, #services, #gallery, #reviews, #booking { padding: 80px 20px; }
+    .barbers-grid { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr; }
+    .reviews-grid { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr; gap: 32px; }
+    .footer-bottom { flex-direction: column; gap: 12px; }
+    .section-header { flex-direction: column; align-items: flex-start; }
+    .hero-ctas { flex-direction: row; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    footer { padding: 40px 20px; }
+  }
+</style>
+</head>
+<body>
+
+
+<!-- HEADER -->
+<header>
+  <a href="../../en/" class="logo">CYBERPUNK<span>.</span>BARBERS</a>
+  
+  <nav class="desktop-only">
+    <a href="../../en/about/" data-i18n="nav.barbers">Barbers</a>
+    <a href="../../en/services/" data-i18n="nav.services">Services</a>
+    <a href="../../en/about/" data-i18n="nav.gallery">Gallery</a>
+    <a href="../../en/contact/" data-i18n="nav.reviews">Reviews</a>
+    <div class="lang-switch">
+      <button class="lang-btn" data-lang="lt" onclick="switchLanguageLocally('lt')">LT</button>
+      <button class="lang-btn" data-lang="en" onclick="switchLanguageLocally('en')">EN</button>
+      <a href="https://www.instagram.com/cyberpunkbarbers/" target="_blank" class="ig-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+      </a>
+    </div>
+  </nav>
+
+  <div class="header-right">
+    <a href="https://treatwell.lt" target="_blank" class="btn-primary desktop-only" data-i18n="nav.book">Book Now</a>
+    
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobile-nav">
+  <a href="../../en/about/" data-i18n="nav.barbers">Barbers</a>
+  <a href="../../en/services/" data-i18n="nav.services">Services</a>
+  <a href="../../en/about/" data-i18n="nav.gallery">Gallery</a>
+  <a href="../../en/contact/" data-i18n="nav.reviews">Reviews</a>
+  <a href="https://treatwell.lt" target="_blank" class="btn-primary" data-i18n="nav.bookMobile" style="font-size: 24px; padding: 20px 40px;">Book Appointment</a>
+  
+  <div class="mobile-lang-switch" style="margin-top: 40px; display: flex; gap: 20px;">
+      <button class="lang-btn" data-lang="lt" onclick="switchLanguageLocally('lt')" style="font-size: 20px;">LT</button>
+      <button class="lang-btn" data-lang="en" onclick="switchLanguageLocally('en')" style="font-size: 20px;">EN</button>
+  </div>
+</div>
+
+
+<!-- MAIN SECTIONS STUB -->
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  
+  <!-- HERO VIDEO -->
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-line"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow" data-i18n="hero.eyebrow">Established 2024 · Vilnius, Lithuania</div>
+    <div class="hero-title" data-i18n="hero.title1">YOU DON'T JUST GET A</div>
+    <div class="hero-title-accent" data-i18n="hero.title2">HAIRCUT HERE.</div>
+    <p class="hero-sub" data-i18n="hero.sub">You get the whole upgrade. Barbers who get it, vibes you'll remember, cuts that hit different.</p>
+    <div class="hero-ctas">
+      <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n="hero.ctaBook">Book Appointment</a>
+      <a href="#gallery" class="btn-outline" data-i18n="hero.ctaSee">See The Vibe</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span data-i18n="hero.scroll">Scroll</span>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <div class="ticker-item" data-i18n="ticker.item1">Cuts</div>
+    <div class="ticker-item" data-i18n="ticker.item2">Sculpted Beards</div>
+    <div class="ticker-item" data-i18n="ticker.item3">Premium Experience</div>
+    <div class="ticker-item" data-i18n="ticker.item4">Vilnius' Finest</div>
+    <div class="ticker-item" data-i18n="ticker.item5">Book Today</div>
+    <div class="ticker-item" data-i18n="ticker.item6">Fade Specialists</div>
+    <div class="ticker-item" data-i18n="ticker.item7">Hot Towel Treatment</div>
+    <div class="ticker-item" data-i18n="ticker.item8">Since 2024</div>
+  </div>
+</div>
+
+<!-- COUNTERS -->
+<div class="counter-strip">
+  <div class="counter-grid">
+    <div class="counter-item reveal">
+      <div class="counter-num" data-target="2400">0<span>+</span></div>
+      <div class="counter-label" data-i18n="stats.cutsDone">Cuts Done</div>
+    </div>
+    <div class="counter-item reveal reveal-delay-1">
+      <div class="counter-num" data-target="98">0<span>%</span></div>
+      <div class="counter-label" data-i18n="stats.satisfaction">Satisfaction Rate</div>
+    </div>
+    <div class="counter-item reveal reveal-delay-2">
+      <div class="counter-num" data-target="6">0</div>
+      <div class="counter-label" data-i18n="stats.masterBarbers">Master Barbers</div>
+    </div>
+    <div class="counter-item reveal reveal-delay-3">
+      <div class="counter-num" data-target="1">0</div>
+      <div class="counter-label" data-i18n="stats.location">Location — Vilnius</div>
+    </div>
+  </div>
+</div>
+<!-- BARBERS -->
+<section id="barbers">
+  <div style="max-width:1200px; margin:0 auto;">
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow" data-i18n="barbersHeader.eyebrow">The Crew</div>
+        <h2 class="section-title"><span data-i18n="barbersHeader.title1">MEET THE</span><br><em data-i18n="barbersHeader.title2">OPERATIVES</em></h2>
+      </div>
+      <p class="section-sub" data-i18n="barbersHeader.sub">Six distinct personalities. One shared obsession — making you look like your best self.</p>
+    </div>
+    <div class="barbers-grid">
+      <!-- NEDAS -->
+      <div class="barber-card reveal">
+        <div class="barber-accent" style="background: linear-gradient(90deg, var(--c-primary), transparent);"></div>
+        
+        <!-- Nedas Profile Photo -->
+        <img src="../../Nedas.jpg" alt="Nedas" class="barber-photo" style="object-position: center 25%; z-index: 1;" onerror="this.style.display='none';">
+        
+        <div class="barber-photo-placeholder">
+          <div class="barber-avatar">
+            <svg class="barber-silhouette" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" style="fill: var(--c-primary);">
+              <ellipse cx="100" cy="70" rx="50" ry="55"/>
+              <path d="M30 200 C30 140 170 140 170 200 L185 300 H15 Z"/>
+            </svg>
+          </div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 120%, rgba(0,242,255,0.08) 0%, transparent 70%), linear-gradient(160deg,#0d1a1a 0%,#050a0a 100%);"></div>
+          <div style="position:absolute;top:20px;right:20px;font-family:var(--font-display);font-size:80px;color:rgba(0,242,255,0.04);line-height:1;">N</div>
+        </div>
+        <div class="barber-overlay"></div>
+        <div class="barber-info">
+          <div class="barber-role" data-i18n="barbersDesc.nedas.role" style="color: var(--c-primary);">Senior Barber</div>
+          <div class="barber-name">NEDAS</div>
+          <div class="barber-desc" data-i18n="barbersDesc.nedas.short">Always sharp, always on point. Nedas gets the details right every time.</div>
+          <div class="barber-modal-desc" style="display: none;">
+            <p><strong style="color: var(--c-text);">Nedas.</strong> An OG from Šiauliai. A true punk. Founder of Cyber Punk Barbers.</p>
+            <p>Cyber Punk is in his blood. From the very first brick, from the very first chair. Not just a studio — a place with character. Just like him.</p>
+            <p>He’s been cutting since the world started cracking — since 2008, when the crisis wiped suits off office desks. Instead of a manager’s chair — scissors in hand. And he never stopped. 17 years behind the chair.</p>
+            <p>If you haven’t been to him yet — you haven’t been to a real barber. Nedas wastes neither your time nor his words. A haircut is like a hit: fast, precise, with character. Conversations — if there’s something worth saying. Silence — if it’s better that way. Maybe a swear word or two. After the cut, he usually hears just one word: “F*cking good.”</p>
+            <p>In his chair, there’s one unwritten rule: “The devil is in the details. Or God.”</p>
+            <p>If you happen to fall asleep — don’t worry. He’ll keep cutting. And he’ll do it well.</p>
+            <p>Come through. Try it. The time to change is now.</p>
+          </div>
+          <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-primary);" data-i18n="barbersDesc.nedas.book">Book with Nedas</a>
+          <a href="https://www.instagram.com/nedasbarber/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+      </div>
+
+      <!-- DENIS -->
+      <div class="barber-card reveal reveal-delay-1">
+        <div class="barber-accent" style="background: linear-gradient(90deg, var(--c-secondary), transparent);"></div>
+        
+        <!-- Denis Profile Photo -->
+        <img src="../../Denis.jpg" alt="Denis" class="barber-photo" style="object-position: center 35%; z-index: 1;" onerror="this.style.display='none';">
+        
+        <div class="barber-photo-placeholder">
+          <div class="barber-avatar">
+            <svg class="barber-silhouette" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" style="fill: var(--c-secondary);">
+              <ellipse cx="100" cy="70" rx="50" ry="55"/>
+              <path d="M30 200 C30 140 170 140 170 200 L185 300 H15 Z"/>
+            </svg>
+          </div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 120%, rgba(188,0,255,0.08) 0%, transparent 70%), linear-gradient(160deg,#130a1a 0%,#080510 100%);"></div>
+          <div style="position:absolute;top:20px;right:20px;font-family:var(--font-display);font-size:80px;color:rgba(188,0,255,0.04);line-height:1;">D</div>
+        </div>
+        <div class="barber-overlay"></div>
+        <div class="barber-info">
+          <div class="barber-role" data-i18n="barbersDesc.denis.role" style="color: var(--c-secondary);">Style Engineer</div>
+          <div class="barber-name">DENIS</div>
+          <div class="barber-desc" data-i18n="barbersDesc.denis.short">Brings the energy and the finest fades. Denis knows exactly what suits you.</div>
+          <div class="barber-modal-desc" style="display: none;">
+            <p><span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-secondary);">@denio.laboratory</span> – instead of balancing wheels, he chose working with heads.</p>
+            <p>Denis left the garage and realized that a barber’s chair was closer to his heart. He used to be an auto mechanic, but one day, after an argument with his boss, while smoking outside, he remembered how, at fifteen, he used to cut his grandfather’s and brother’s hair. That same evening, he called a barbershop, told his story—and they took him in.</p>
+            <p>His first chair was on Gediminas Avenue—there he was taught by a Ukrainian barber. Later, he met Neda, the “gangster” of our barbershop, who became a true mentor.</p>
+            <p>And that’s how it started—7 years behind the chair.</p>
+            <p>Today, he says barbering is not a job, but a way of life. He sees himself cutting hair for the rest of his life. There are no limits here, just like in relationships—every person is unique, always different. Over these years, Denis has matured: he’s learned a lot about people, about humanity, about how respect and listening are not tricks, but essential tools—just as important as scissors.</p>
+            <p>His signature? Charisma. That unteachable spark—you either have it or you don’t. He comes to work to bring a good mood, and expects the same from others. He calls his philosophy “synthesis”—an exchange of emotion for emotion. Problems don’t enter the chair; they stay outside the door.</p>
+            <p>After a haircut, clients usually say a simple “thank you.” And that’s enough for him. Because it’s not just about clean lines or a perfect fade—it’s about connection, atmosphere, about how, for an hour, you and he become like-minded.</p>
+            <p>He’s grateful to those who follow him, travel with him, grow with him. Because in barbering, he says, just like in life—there’s no perfection, only the journey.</p>
+            <p>One sentence for those who haven’t visited Denis yet:<br>
+            “This is not just a haircut—this is synthesis.”</p>
+          </div>
+          <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-secondary);" data-i18n="barbersDesc.denis.book">Book with Denis</a>
+          <a href="https://www.instagram.com/denio.laboratory/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+      </div>
+
+      <!-- ERIKAS -->
+      <div class="barber-card reveal reveal-delay-2">
+        <div class="barber-accent" style="background: linear-gradient(90deg, var(--c-tertiary), transparent);"></div>
+        
+        <!-- Erikas Profile Photo -->
+        <img src="../../Erikas.jpg" alt="Erikas" class="barber-photo" style="object-position: center 25%; z-index: 1;" onerror="this.style.display='none';">
+        
+        <div class="barber-photo-placeholder">
+          <div class="barber-avatar">
+            <svg class="barber-silhouette" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" style="fill: var(--c-tertiary);">
+              <ellipse cx="100" cy="70" rx="50" ry="55"/>
+              <path d="M30 200 C30 140 170 140 170 200 L185 300 H15 Z"/>
+            </svg>
+          </div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 120%, rgba(254,216,58,0.06) 0%, transparent 70%), linear-gradient(160deg,#131000 0%,#0a0800 100%);"></div>
+          <div style="position:absolute;top:20px;right:20px;font-family:var(--font-display);font-size:80px;color:rgba(254,216,58,0.04);line-height:1;">E</div>
+        </div>
+        <div class="barber-overlay"></div>
+        <div class="barber-info">
+          <div class="barber-role" data-i18n="barbersDesc.erikas.role" style="color: var(--c-tertiary);">Specialist</div>
+          <div class="barber-name">ERIKAS</div>
+          <div class="barber-desc" data-i18n="barbersDesc.erikas.short">Clean lines and classic cuts. Erikas executes the craft with pure focus.</div>
+          <div class="barber-modal-desc" style="display: none;">
+            <p><strong style="color: var(--c-text);">Erikas.</strong> Not a saint, not an artist — just a guy with clippers in his hand. Cutting for 2.5 years now. Not because it was a dream, but because he needed money. He was searching for himself, found scissors, clippers, and his place among people who don’t talk too much.</p>
+            <p>Over those years, he’s changed as much as someone changes when they see different faces every day but remain the same inside — quiet, calm, not a morning person. He doesn’t like rules. His style is simple: no unnecessary tricks, just a clean line and freedom. What sets him apart is that he doesn’t try to please anyone. And maybe that’s exactly why people come back.</p>
+            <p>What drives him the most? Colleagues, freedom, that calm between haircuts — when you can take a smoke and laugh about life being here and now. He’s not into music, but if something’s playing, it might be Lady Gaga — why not, the world is absurd anyway.</p>
+            <p>Clients? Everyone’s welcome. If you fall asleep in the chair — he won’t wake you. If you don’t talk — even better. After the cut, people usually don’t say much. Why would they? The mirror says everything.</p>
+            <p>In his free time, he sells furniture, likes to travel, but nothing really stresses him — the world is on fire, and he’s chill about it. Coffee instead of beer. Bolt Drive instead of Audi or BMW.</p>
+            <p>One sentence for those who haven’t been to him yet:<br>
+            “Too expensive.”</p>
+            <p>And one more unwritten rule: when you sit in his chair, you understand — there are no rules here.</p>
+          </div>
+          <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-tertiary);" data-i18n="barbersDesc.erikas.book">Book with Erikas</a>
+          <a href="https://www.instagram.com/evseicik/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+      </div>
+
+      <!-- VLAD -->
+      <div class="barber-card reveal">
+        <div class="barber-accent" style="background: linear-gradient(90deg, var(--c-primary), transparent);"></div>
+        
+        <!-- Vlad Profile Photo -->
+        <img src="../../Vlad.jpg" alt="Vlad" class="barber-photo" style="object-position: center 25%; z-index: 1;" onerror="this.style.display='none';">
+        
+        <div class="barber-photo-placeholder">
+          <div class="barber-avatar">
+            <svg class="barber-silhouette" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" style="fill: var(--c-primary);">
+              <ellipse cx="100" cy="70" rx="50" ry="55"/>
+              <path d="M30 200 C30 140 170 140 170 200 L185 300 H15 Z"/>
+            </svg>
+          </div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 120%, rgba(0,242,255,0.08) 0%, transparent 70%), linear-gradient(160deg,#0d1a1a 0%,#050a0a 100%);"></div>
+          <div style="position:absolute;top:20px;right:20px;font-family:var(--font-display);font-size:80px;color:rgba(0,242,255,0.04);line-height:1;">V</div>
+        </div>
+        <div class="barber-overlay"></div>
+        <div class="barber-info">
+          <div class="barber-role" data-i18n="barbersDesc.vlad.role" style="color: var(--c-primary);">Detail Master</div>
+          <div class="barber-name">VLAD</div>
+          <div class="barber-desc" data-i18n="barbersDesc.vlad.short">Quiet precision. Vlad lets the results speak for themselves.</div>
+          <div class="barber-modal-desc" style="display: none;">
+            <p><strong style="color: var(--c-text);">Vlad.</strong> <span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-primary);">@vlad.arh.</span> The one who got into barbering for the vibe.</p>
+            <p>Clients don’t come just for the fade. They come back for the conversation, for the atmosphere. Over time, familiar faces turn into friends — they say hello, share how their trip went, and leave with a “f*cking good” or “amazing, as always.”</p>
+            <p>Vlad likes open and bold people. The ones who say what they like — and what they don’t. Criticism doesn’t offend here — it’s the path to a better cut, to growth.</p>
+            <p>He pulls up to work in a Mercedes. In the shop, he throws on minimal house or techno, takes a sip of his Monster — and that’s it: let’s go, time to cut.</p>
+            <p>Ask him what he’d do if a client fell asleep, and his answer is simple:<br>
+            “What do you mean what — I’d keep cutting. Let him sleep. Full-on Relax FM vibe.”</p>
+          </div>
+          <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-primary);" data-i18n="barbersDesc.vlad.book">Book with Vlad</a>
+          <a href="https://www.instagram.com/vlad.arh/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+      </div>
+
+      <!-- MARTYNAS -->
+      <div class="barber-card reveal reveal-delay-1">
+        <div class="barber-accent" style="background: linear-gradient(90deg, var(--c-secondary), transparent);"></div>
+        
+        <!-- Martynas Profile Photo -->
+        <img src="../../Martynas.jpg" alt="Martynas" class="barber-photo" style="object-position: center 25%; z-index: 1;" onerror="this.style.display='none';">
+        
+        <div class="barber-photo-placeholder">
+          <div class="barber-avatar">
+            <svg class="barber-silhouette" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" style="fill: var(--c-secondary);">
+              <ellipse cx="100" cy="70" rx="50" ry="55"/>
+              <path d="M30 200 C30 140 170 140 170 200 L185 300 H15 Z"/>
+            </svg>
+          </div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 120%, rgba(188,0,255,0.08) 0%, transparent 70%), linear-gradient(160deg,#130a1a 0%,#080510 100%);"></div>
+          <div style="position:absolute;top:20px;right:20px;font-family:var(--font-display);font-size:80px;color:rgba(188,0,255,0.04);line-height:1;">M</div>
+        </div>
+        <div class="barber-overlay"></div>
+        <div class="barber-info">
+          <div class="barber-role" data-i18n="barbersDesc.martynas.role" style="color: var(--c-secondary);">Creative Lead</div>
+          <div class="barber-name">MARTYNAS</div>
+          <div class="barber-desc" data-i18n="barbersDesc.martynas.short">Next-level scissor work. Martynas turns every cut into a masterpiece.</div>
+          <div class="barber-modal-desc" style="display: none;">
+            Martynas. @martynas_balaika<br><br>
+            Five years behind the chair — and still carrying the same vibe.<br><br>
+            He didn’t come into barbering just for a job — he came for the energy.<br>
+            When he moved to Vilnius, he walked into a barbershop and felt it immediately:<br>
+            there were no strict rules here, just freedom. That’s when he decided — this is my place.<br><br>
+            He completed training at Barber Academy and Red Light Barbers, and now creates his own rhythm — blending hip-hop, trap, and UK drill energy into his work and lifestyle.<br><br>
+            When he sends a client off with a smile and says:<br>
+            “Today you’re gonna get that ;)” — he knows it’s done right.<br><br>
+            After a haircut, the most common word you’ll hear is:<br>
+            “Clean.”<br><br>
+            In his chair, there are no strict rules.<br>
+            If you fall asleep, you’ll hear: “Bro, wake up.”<br>
+            If it’s your first time — just know, this is not a regular beauty salon.<br><br>
+            Between cuts: herbal tea, beer, laughter.<br>
+            Between thoughts: a dream of owning his own barbershop one day.<br><br>
+            His style is freedom, music, and good energy.<br><br>
+            It’s gonna be legit, bro. Always.
+          </div>
+          <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-secondary);" data-i18n="barbersDesc.martynas.book">Book with Martynas</a>
+          <a href="https://www.instagram.com/martynas_balaika/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+      </div>
+
+      <!-- EVALDAS -->
+      <div class="barber-card reveal reveal-delay-2">
+        <div class="barber-accent" style="background: linear-gradient(90deg, var(--c-tertiary), transparent);"></div>
+        
+        <!-- Evaldas Profile Photo -->
+        <img src="../../Evaldas.jpg" alt="Evaldas" class="barber-photo" style="object-position: center 25%; z-index: 1;" onerror="this.style.display='none';">
+        
+        <div class="barber-photo-placeholder">
+          <div class="barber-avatar">
+            <svg class="barber-silhouette" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg" style="fill: var(--c-tertiary);">
+              <ellipse cx="100" cy="70" rx="50" ry="55"/>
+              <path d="M30 200 C30 140 170 140 170 200 L185 300 H15 Z"/>
+            </svg>
+          </div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 120%, rgba(254,216,58,0.06) 0%, transparent 70%), linear-gradient(160deg,#131000 0%,#0a0800 100%);"></div>
+          <div style="position:absolute;top:20px;right:20px;font-family:var(--font-display);font-size:80px;color:rgba(254,216,58,0.04);line-height:1;">E</div>
+        </div>
+        <div class="barber-overlay"></div>
+        <div class="barber-info">
+          <div class="barber-role" data-i18n="barbersDesc.evaldas.role" style="color: var(--c-tertiary);">Classic Specialist</div>
+          <div class="barber-name">EVALDAS</div>
+          <div class="barber-desc" data-i18n="barbersDesc.evaldas.short">Old school craft meets modern edge. Good vibes guaranteed.</div>
+          <div class="barber-modal-desc" style="display: none;">
+            <p><strong style="color: var(--c-text);">Evaldas.</strong> <span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-primary);">@aktyvus</span></p>
+            <p>The youngest in experience, but already shaped by life.</p>
+            <p>Just half a year ago, he didn’t know how to hold scissors. Today, he shapes heads as if they were blocks of marble. For him, every haircut is a sculpture — and tools are an extension of his hands.</p>
+            <p>He entered barbering searching for freedom — a space for creativity, growth, and constant learning. And he found it. Today, he is a DJ, yoga teacher, and barber in one — three different worlds coming together into one flow: music, rhythm, and precise movement.</p>
+            <p>In Evaldas’ chair, there are no strict rules — only respect, listening, and pure vibe.<br>
+            His ideal client? Anyone who has hair.</p>
+            <p>If you fall asleep, he won’t wake you — he’ll gently make you comfortable so you can rest peacefully.</p>
+            <p>Coffee flows like fuel here — strong enough to ring in your ears. Between cuts, you might hear the crackle of “Golden Virginia” tobacco. In the background, aggressive acid music may be playing — his creative soundtrack.</p>
+            <p>And if you haven’t been to Evaldas yet, remember this:<br>
+            you don’t just come for a haircut. You enter his space. And there, your head becomes a canvas — a sculpture.</p>
+          </div>
+          <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-tertiary);" data-i18n="barbersDesc.evaldas.book">Book with Evaldas</a>
+          <a href="https://www.instagram.com/aktyvus/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-container">
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow" data-i18n="services.eyebrow">What We Do</div>
+        <h2 class="section-title"><span data-i18n="services.title1">THE</span><br><em data-i18n="services.title2">MENU</em></h2>
+      </div>
+      <p class="section-sub" data-i18n="services.sub">No complicated packages. Just three things done exceptionally well.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card featured reveal">
+        <div class="service-badge" data-i18n="services.cards.1.badge">Most Popular</div>
+        <div class="service-number">01 / 03</div>
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 2h11M6.5 2C5.1 2 4 3.1 4 4.5S5.1 7 6.5 7M17.5 2C18.9 2 20 3.1 20 4.5S18.9 7 17.5 7M6.5 7h11M6.5 7v10a2 2 0 002 2h7a2 2 0 002-2V7"/><circle cx="12" cy="13" r="2"/></svg>
+        <div class="service-name" data-i18n="services.cards.1.name">HAIRCUT</div>
+        <p class="service-desc" data-i18n="services.cards.1.desc">Custom fade, wash, and style tailored to your skull structure, face shape, and lifestyle.</p>
+        <div class="service-details">
+          <span class="service-duration" data-i18n="services.cards.1.duration">45 MIN</span>
+          <span class="service-price" data-i18n="services.cards.1.price">from 30 EUR</span>
+        </div>
+        <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="service-cta" data-i18n="services.cta">Book This Service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-number">02 / 03</div>
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.68 2 6 4.68 6 8c0 2.4 1.35 4.49 3.34 5.57L7 22h10l-2.34-8.43C16.65 12.49 18 10.4 18 8c0-3.32-2.68-6-6-6z"/><path d="M9 8h6M9 11h6"/></svg>
+        <div class="service-name" data-i18n="services.cards.2.name">SCULPTED BEARD</div>
+        <p class="service-desc" data-i18n="services.cards.2.desc">Hot towel treatment, precision line-up, and oil infusion. We shape what you've got into something you're proud to wear.</p>
+        <div class="service-details">
+          <span class="service-duration" data-i18n="services.cards.2.duration">30 MIN</span>
+          <span class="service-price" data-i18n="services.cards.2.price">from 25 EUR</span>
+        </div>
+        <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="service-cta" data-i18n="services.cta">Book This Service</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-number">03 / 03</div>
+        <svg class="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        <div class="service-name" data-i18n="services.cards.3.name">CYBER COMBO</div>
+        <p class="service-desc" data-i18n="services.cards.3.desc">Full haircut plus beard sculpt. Walk in looking like a draft, leave looking like the final version.</p>
+        <div class="service-details">
+          <span class="service-duration" data-i18n="services.cards.3.duration">75 MIN</span>
+          <span class="service-price" data-i18n="services.cards.3.price">from 45 EUR</span>
+        </div>
+        <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="service-cta" data-i18n="services.cta">Book This Service</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="gallery-container">
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow" data-i18n="gallery.eyebrow">The Vibe</div>
+        <h2 class="section-title"><span data-i18n="gallery.title1">FEEL IT</span><br><em data-i18n="gallery.title2">BEFORE YOU COME</em></h2>
+      </div>
+      <p class="section-sub" data-i18n="gallery.sub">The kind of place you want to stay a bit longer.</p>
+    </div>
+    <div class="gallery-grid">
+
+      <div class="gallery-item reveal">
+        <video src="../../vibe-interior.mp4" class="gallery-photo" style="position: absolute; inset: 0;" autoplay loop muted playsinline></video>
+        <div class="gallery-fill gallery-fill-1">
+          <div style="position:absolute;inset:0;background:linear-gradient(160deg,#0d1a1a 0%,#000 100%);"></div>
+          <!-- Decorative cinematic interior suggestion -->
+          <div style="position:absolute;bottom:30%;left:50%;transform:translateX(-50%);width:60%;height:1px;background:linear-gradient(90deg,transparent,rgba(0,242,255,0.2),transparent);"></div>
+          <div style="position:absolute;top:20%;left:10%;width:30%;height:30%;border:1px solid rgba(0,242,255,0.05);"></div>
+          <div style="position:absolute;bottom:20%;right:10%;width:20%;height:20%;border:1px solid rgba(0,242,255,0.05);"></div>
+          <div style="position:absolute;top:40%;left:40%;width:60px;height:60px;border-radius:50%;border:1px solid rgba(0,242,255,0.06);"></div>
+          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;">
+            <div style="font-family:var(--font-display);font-size:14px;letter-spacing:0.4em;color:rgba(0,242,255,0.15);text-transform:uppercase;">The Space</div>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-label" data-i18n="gallery.labels.interior">The Atmosphere</span></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1">
+        <img src="../../vibe-photo1.jpg" alt="ENJOY" class="gallery-photo" style="position: absolute; inset: 0;" onerror="this.style.display='none';">
+        <div class="gallery-fill gallery-fill-2">
+          <div style="position:absolute;inset:0;background:linear-gradient(180deg,#120815 0%,#000 100%);"></div>
+          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+            <div style="font-family:var(--font-display);font-size:80px;color:rgba(188,0,255,0.06);letter-spacing:0.1em;">CUT</div>
+          </div>
+          <div style="position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--c-secondary),transparent);opacity:0.3;"></div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-label" data-i18n="gallery.labels.vibe">Vibe & Mood</span></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-2">
+        <video src="../../vibe-craft.mp4" class="gallery-photo" style="position: absolute; inset: 0;" autoplay loop muted playsinline></video>
+        <div class="gallery-fill gallery-fill-3">
+          <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0d0900 0%,#000 100%);"></div>
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:80px;height:80px;border-radius:50%;border:1px solid rgba(254,216,58,0.08);"></div>
+          <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:120px;height:120px;border-radius:50%;border:1px solid rgba(254,216,58,0.04);"></div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-label" data-i18n="gallery.labels.craft">Detail & Craft</span></div>
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="../../vibe-photo2.jpg" alt="LOGO" class="gallery-photo" style="position: absolute; inset: 0;" onerror="this.style.display='none';">
+        <div class="gallery-fill gallery-fill-4">
+          <div style="position:absolute;inset:0;background:linear-gradient(180deg,#060d0d 0%,#000 100%);"></div>
+          <div style="position:absolute;top:0;bottom:0;left:50%;width:1px;background:linear-gradient(to bottom,transparent,rgba(0,242,255,0.08),transparent);"></div>
+          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+            <div style="font-family:var(--font-display);font-size:11px;letter-spacing:0.5em;color:rgba(0,242,255,0.1);text-transform:uppercase;">After Session</div>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-label" data-i18n="gallery.labels.craft">Detail & Craft</span></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1">
+        <img src="../../vibe-photo3.jpg" alt="Vibe & Mood" class="gallery-photo" style="position: absolute; inset: 0;" onerror="this.style.display='none';">
+        <div class="gallery-fill gallery-fill-5">
+          <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0a0512 0%,#000 100%);"></div>
+          <div style="position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--c-secondary),transparent);opacity:0.2;"></div>
+          <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+            <div style="font-family:var(--font-display);font-size:11px;letter-spacing:0.5em;color:rgba(188,0,255,0.12);text-transform:uppercase;">The Atmosphere</div>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-label" data-i18n="gallery.labels.vibe">Vibe & Mood</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="reviews-container">
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow" data-i18n="reviews.eyebrow">What They Say</div>
+        <h2 class="section-title"><span data-i18n="reviews.title1">REAL TALK</span><br><em data-i18n="reviews.title2">FROM THE CHAIR</em></h2>
+      </div>
+      <p class="section-sub" data-i18n="reviews.sub">We let the clients do the talking.</p>
+    </div>
+    <div class="treatwell-badge reveal" style="display: flex; justify-content: center; margin-top: 48px;">
+      <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 16px; background: var(--c-bg3); padding: 16px 32px; border: 1px solid var(--c-border); border-radius: 100px; text-decoration: none; transition: background 0.3s, border-color 0.3s;" onmouseover="this.style.borderColor='var(--c-primary)'; this.style.background='var(--c-bg2)';" onmouseout="this.style.borderColor='var(--c-border)'; this.style.background='var(--c-bg3)';">
+        <div style="color: var(--c-tertiary); font-size: 20px; letter-spacing: 2px;">★★★★★</div>
+        <div style="font-family: var(--font-display); font-size: 32px; color: var(--c-text); line-height: 1;">5.0</div>
+        <div style="width: 1px; height: 24px; background: var(--c-border);"></div>
+        <div style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-muted); text-transform: uppercase;"><span data-i18n="reviews.badgeText">Verify on Treatwell ↗</span></div>
+      </a>
+    </div>
+
+    <!-- TREATWELL REVIEW MARQUEE (PREMIUM ADD-ON) -->
+    <style>
+      .marquee-wrapper {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        display: flex;
+        margin-top: 64px;
+      }
+      .marquee-wrapper::before, .marquee-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 0; bottom: 0;
+        width: 120px;
+        z-index: 2;
+        pointer-events: none;
+      }
+      .marquee-wrapper::before {
+        left: 0;
+        background: linear-gradient(to right, var(--c-bg), transparent);
+      }
+      .marquee-wrapper::after {
+        right: 0;
+        background: linear-gradient(to left, var(--c-bg), transparent);
+      }
+      .marquee-track {
+        display: flex;
+        gap: 24px;
+        width: max-content;
+        animation: marquee 60s linear infinite;
+        padding: 12px 0;
+      }
+      .marquee-track:hover {
+        animation-play-state: paused;
+      }
+      .marquee-track .review-card {
+        width: 360px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      .marquee-track .review-author {
+        margin-top: auto;
+      }
+      @keyframes marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(calc(-50% - 12px)); }
+      }
+      @media (max-width: 768px) {
+        .marquee-track { animation-duration: 40s; }
+        .marquee-track .review-card { width: 300px; }
+        .marquee-wrapper::before, .marquee-wrapper::after { width: 60px; }
+      }
+    </style>
+    
+    <div class="marquee-wrapper reveal">
+      <div class="marquee-track">
+        <!-- FIRST SET OF REVIEWS -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Labai rekomenduoju šį kirpėją! Labai atsakingai į kiekvieną detalę.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-secondary), #6600aa);">A</div>
+            <div>
+              <div class="review-name">ANDRZEJ</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Puikus rezultatas, linksmas ir nagingas barberis Erikas.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #aa6600, #664400);">G</div>
+            <div>
+              <div class="review-name">GIEDRIUS</div>
+              <div class="review-barber">Barber: Erikas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Sūnus patenkintas kirpimu. Grįžta ne pirmą kartą.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-primary), #0066aa);">O</div>
+            <div>
+              <div class="review-name">OLGA</div>
+              <div class="review-barber">Barber: Vlad</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Aptarnavimas buvo puikus, ačiū! Lūkesčius pateisino pilnai.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-primary), #0066aa);">T</div>
+            <div>
+              <div class="review-name">TOMAS</div>
+              <div class="review-barber">Barber: Denis</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Evaldas apkirpo puikiai. Esu labai patenkintas!</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #aa6600, #664400);">S</div>
+            <div>
+              <div class="review-name">SIMONAS</div>
+              <div class="review-barber">Barber: Evaldas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Nedas pats geriausias! Jau metus iš metų pas jį kerpuosi.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #00aa66, #004422);">V</div>
+            <div>
+              <div class="review-name">VYTAUTAS</div>
+              <div class="review-barber">Barber: Nedas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Vladas 10/10, pirmą kartą buvau, kirpimas puikus, malonus bendravimas ir dar gavau patarimų.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-secondary), #6600aa);">A</div>
+            <div>
+              <div class="review-name">ARNOLDAS</div>
+              <div class="review-barber">Barber: Vlad</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Atliko savo darbą puikiai, dėmesingas ir kruopštus.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0088aa, #002244);">A</div>
+            <div>
+              <div class="review-name">AURIMAS</div>
+              <div class="review-barber">Barber: Evaldas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Viskas super 10/10</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-tertiary), #aa8800);">L</div>
+            <div>
+              <div class="review-name">LAURYNAS</div>
+              <div class="review-barber">Barber: Erikas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Iškart susikalbėjom, ką su bliūdu ant galvos daryti. Rekomenduoju 👌</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-tertiary), #aa8800);">L</div>
+            <div>
+              <div class="review-name">LUKAS</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Su Nedu patirtis visada geriausia 💣🚀</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #aa6600, #664400);">A</div>
+            <div>
+              <div class="review-name">ALEKSAS</div>
+              <div class="review-barber">Barber: Nedas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Apkirpo profesionaliai, tobulai.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #00aa66, #004422);">E</div>
+            <div>
+              <div class="review-name">EGIDIJUS</div>
+              <div class="review-barber">Barber: Nedas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Greitai, kruopščiai ir gražiai. Geras meistras.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-tertiary), #aa8800);">A</div>
+            <div>
+              <div class="review-name">ANDREJ</div>
+              <div class="review-barber">Barber: Vlad</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">10/10</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0088aa, #002244);">B</div>
+            <div>
+              <div class="review-name">BENAS</div>
+              <div class="review-barber">Barber: Denis</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Kaip visada, puikus kirpimas ir bendravimas. Erikas – jėga!</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-primary), #0066aa);">M</div>
+            <div>
+              <div class="review-name">MILDA</div>
+              <div class="review-barber">Barber: Erikas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Professional service. Highly recommend.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #00aa66, #004422);">M</div>
+            <div>
+              <div class="review-name">MATEUSZ</div>
+              <div class="review-barber">Barber: Evaldas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Labai rekomenduoju apsilankyti. Profesionaliai žiūri į savo darbą ☺️</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-secondary), #6600aa);">R</div>
+            <div>
+              <div class="review-name">RAFAEL</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Super</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0088aa, #002244);">T</div>
+            <div>
+              <div class="review-name">TOMAS</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DUPLICATED SET OF REVIEWS FOR INFINITE SCROLL -->
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Labai rekomenduoju šį kirpėją! Labai atsakingai į kiekvieną detalę.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-secondary), #6600aa);">A</div>
+            <div>
+              <div class="review-name">ANDRZEJ</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Puikus rezultatas, linksmas ir nagingas barberis Erikas.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #aa6600, #664400);">G</div>
+            <div>
+              <div class="review-name">GIEDRIUS</div>
+              <div class="review-barber">Barber: Erikas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Sūnus patenkintas kirpimu. Grįžta ne pirmą kartą.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-primary), #0066aa);">O</div>
+            <div>
+              <div class="review-name">OLGA</div>
+              <div class="review-barber">Barber: Vlad</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Aptarnavimas buvo puikus, ačiū! Lūkesčius pateisino pilnai.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-primary), #0066aa);">T</div>
+            <div>
+              <div class="review-name">TOMAS</div>
+              <div class="review-barber">Barber: Denis</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Evaldas apkirpo puikiai. Esu labai patenkintas!</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #aa6600, #664400);">S</div>
+            <div>
+              <div class="review-name">SIMONAS</div>
+              <div class="review-barber">Barber: Evaldas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Nedas pats geriausias! Jau metus iš metų pas jį kerpuosi.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #00aa66, #004422);">V</div>
+            <div>
+              <div class="review-name">VYTAUTAS</div>
+              <div class="review-barber">Barber: Nedas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Vladas 10/10, pirmą kartą buvau, kirpimas puikus, malonus bendravimas ir dar gavau patarimų.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-secondary), #6600aa);">A</div>
+            <div>
+              <div class="review-name">ARNOLDAS</div>
+              <div class="review-barber">Barber: Vlad</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Atliko savo darbą puikiai, dėmesingas ir kruopštus.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0088aa, #002244);">A</div>
+            <div>
+              <div class="review-name">AURIMAS</div>
+              <div class="review-barber">Barber: Evaldas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Viskas super 10/10</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-tertiary), #aa8800);">L</div>
+            <div>
+              <div class="review-name">LAURYNAS</div>
+              <div class="review-barber">Barber: Erikas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Iškart susikalbėjom, ką su bliūdu ant galvos daryti. Rekomenduoju 👌</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-tertiary), #aa8800);">L</div>
+            <div>
+              <div class="review-name">LUKAS</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Su Nedu patirtis visada geriausia 💣🚀</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #aa6600, #664400);">A</div>
+            <div>
+              <div class="review-name">ALEKSAS</div>
+              <div class="review-barber">Barber: Nedas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Apkirpo profesionaliai, tobulai.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #00aa66, #004422);">E</div>
+            <div>
+              <div class="review-name">EGIDIJUS</div>
+              <div class="review-barber">Barber: Nedas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Greitai, kruopščiai ir gražiai. Geras meistras.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-tertiary), #aa8800);">A</div>
+            <div>
+              <div class="review-name">ANDREJ</div>
+              <div class="review-barber">Barber: Vlad</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">10/10</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0088aa, #002244);">B</div>
+            <div>
+              <div class="review-name">BENAS</div>
+              <div class="review-barber">Barber: Denis</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Kaip visada, puikus kirpimas ir bendravimas. Erikas – jėga!</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-primary), #0066aa);">M</div>
+            <div>
+              <div class="review-name">MILDA</div>
+              <div class="review-barber">Barber: Erikas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Professional service. Highly recommend.</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #00aa66, #004422);">M</div>
+            <div>
+              <div class="review-name">MATEUSZ</div>
+              <div class="review-barber">Barber: Evaldas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Labai rekomenduoju apsilankyti. Profesionaliai žiūri į savo darbą ☺️</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, var(--c-secondary), #6600aa);">R</div>
+            <div>
+              <div class="review-name">RAFAEL</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Super</p>
+          <div class="review-author">
+            <div class="review-avatar" style="background: linear-gradient(135deg, #0088aa, #002244);">T</div>
+            <div>
+              <div class="review-name">TOMAS</div>
+              <div class="review-barber">Barber: Martynas</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+</section>
+<!-- BOOKING REPLACED WITH SECURE THE SPOT -->
+<section id="booking" style="padding: 120px 40px; background: var(--c-bg2); border-top: 1px solid var(--c-border); text-align: center;">
+  <div class="booking-container" style="max-width: 640px; margin: 0 auto;">
+    <div class="section-header reveal" style="align-items: center; justify-content: center; flex-direction: column; margin-bottom: 0;">
+      <div class="section-eyebrow" data-i18n="booking.eyebrow">Secure the Spot</div>
+      <h2 class="section-title"><span data-i18n="booking.title1">YOUR UPGRADE</span><br><em data-i18n="booking.title2">AWAITS</em></h2>
+      <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="btn-primary" style="font-size: 14px; padding: 18px 40px;">Book on Treatwell</a>
+    </div>
+  </div>
+</section>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">CYBERPUNK<span>.</span>BARBERS</div>
+      <p class="footer-tagline" data-i18n="footer.tagline">Not just a haircut. An experience. Come curious, leave upgraded. Vilnius' premier atmosphere-first barbershop.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/cyberpunkbarbers/" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram">IG</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title" data-i18n="footer.colNavigate">Navigate</div>
+      <ul class="footer-links">
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#barbers" data-i18n="nav.barbers">Barbers</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#reviews" data-i18n="nav.reviews">Reviews</a></li>
+        <li><a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" data-i18n="nav.book">Book Now</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title" data-i18n="footer.colHours">Hours</div>
+      <ul class="footer-links">
+        <li><span data-i18n="footer.hours1">Mon – Fri: 10:00 – 20:00</span></li>
+        <li><span data-i18n="footer.hours2">Saturday: 10:00 – 18:00</span></li>
+        <li><span data-i18n="footer.hours3">Sunday: Closed</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title" data-i18n="footer.colLocation">Location</div>
+      <ul class="footer-links">
+        <li data-i18n="footer.loc1">Švitrigailos g. 36</li>
+        <li data-i18n="footer.loc2">Vilnius, LT-03228</li>
+        <li data-i18n="footer.loc3">Lithuania</li>
+        <li style="margin-top:12px;"><a href="tel:064466600">(0-644) 66600</a></li>
+        <li><a href="mailto:hello@cyberpunkbarbers.lt">hello@cyberpunkbarbers.lt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy"><span data-i18n="footer.copy">© 2026 Cyberpunk Barbers. All rights reserved.</span></div>
+    <div class="footer-location" data-i18n="footer.city">Vilnius, Lithuania</div>
+  </div>
+</footer>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookie-banner">
+  <div class="cookie-text">
+    <strong data-i18n="cookie.policy">Cookie Policy</strong><br>
+    <span data-i18n="cookie.text">We use minimal cookies to ensure you get the best experience on our website. You can accept or decline non-essential cookies.</span>
+  </div>
+  <div class="cookie-actions">
+    <button class="btn-cookie btn-cookie-decline" onclick="handleCookie('decline')" data-i18n="cookie.decline">Decline</button>
+    <button class="btn-cookie btn-cookie-accept" onclick="handleCookie('accept')" data-i18n="cookie.accept">Accept ✓</button>
+  </div>
+</div>
+
+<!-- BARBER POPUP MODAL -->
+<div class="barber-modal" id="barber-modal">
+  <div class="modal-close-area"></div>
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-left">
+      <img id="modal-photo" src="" alt="Barber Photo">
+      <div id="modal-placeholder" class="barber-photo-placeholder" style="display: none; position: absolute; inset: 0;">
+        <div style="font-family: var(--font-display); font-size: 140px; color: rgba(255,255,255,0.03);" id="modal-letter">X</div>
+      </div>
+    </div>
+    <div class="modal-right">
+      <div id="modal-role" class="barber-role" style="font-size: 11px; margin-bottom: 12px; color: var(--c-primary);">Role</div>
+      <h3 id="modal-name" class="barber-name" style="font-size: 48px; margin-bottom: 24px;">Name</h3>
+      <div id="modal-desc" class="service-desc" style="font-size: 15px; margin-bottom: 48px; color: rgba(232,232,232,0.8); line-height: 1.8;">Description</div>
+      <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width: 100%; justify-content: center; font-size: 13px; padding: 18px 16px; margin-top: auto; letter-spacing: 0.15em;" data-i18n="modal.book">Book Appointment</a>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── LANGUAGE SWITCHING (STITCHED BY GENERATOR) ──
+
+        function switchLanguageLocally(targetLang) {
+            const currentLang = 'en';
+            if (targetLang === currentLang) return;
+            const pageMap = {"id":"about","lt":"apie-mus/","en":"about/"};
+            // For the language switcher, we use the root redirect approach
+            window.location.href = '/' + targetLang + '/' + pageMap[targetLang];
+        }
+
+// ── NAVIGATION ──
+function toggleMenu() {
+    const nav = document.getElementById('mobile-nav');
+    const burger = document.getElementById('hamburger');
+    if (nav) nav.classList.toggle('open');
+    if (burger) burger.classList.toggle('active');
+    document.body.style.overflow = (nav && nav.classList.contains('open')) ? 'hidden' : '';
+}
+
+// Close mobile nav on link click
+document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        const nav = document.getElementById('mobile-nav');
+        if (nav && nav.classList.contains('open')) toggleMenu();
+    });
+});
+
+// ── BARBER MODAL ──
+const modal = document.getElementById('barber-modal');
+const modalClose = document.querySelector('.modal-close');
+
+function openBarberModal(card) {
+    if (!modal) return;
+    const name = card.querySelector('.barber-name').textContent;
+    const role = card.querySelector('.barber-role').textContent;
+    const bio = card.querySelector('.barber-modal-desc').innerHTML;
+    const book = card.querySelector('.barber-book').href;
+    const photo = card.querySelector('.barber-photo').src;
+    const color = card.querySelector('.barber-role').style.color;
+
+    document.getElementById('modal-name').textContent = name;
+    document.getElementById('modal-role').textContent = role;
+    document.getElementById('modal-role').style.color = color;
+    document.getElementById('modal-desc').innerHTML = bio;
+    document.getElementById('modal-photo').src = photo;
+    
+    // Update links
+    const modalBook = modal.querySelector('.btn-primary');
+    if (modalBook) modalBook.href = book;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+if (modalClose) modalClose.addEventListener('click', closeModal);
+window.addEventListener('click', (e) => { 
+    if (e.target === modal || e.target.classList.contains('modal-close-area')) closeModal(); 
+});
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+document.querySelectorAll('.barber-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        openBarberModal(card);
+    });
+});
+
+// ── REVEAL ON SCROLL ──
+const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            if (entry.target.classList.contains('counter-item') || entry.target.hasAttribute('data-target')) {
+                const counter = entry.target.hasAttribute('data-target') ? entry.target : entry.target.querySelector('[data-target]');
+                if (counter) animateCounter(counter);
+            }
+        }
+    });
+}, observerOptions);
+
+document.querySelectorAll('.reveal, .counter-item, [data-target]').forEach(el => observer.observe(el));
+
+function animateCounter(el) {
+    if (el.dataset.animated) return;
+    el.dataset.animated = 'true';
+    const target = parseInt(el.getAttribute('data-target'));
+    const suffix = el.querySelector('span') ? el.querySelector('span').outerHTML : '';
+    const duration = 2000;
+    const start = performance.now();
+    
+    function update(now) {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.round(eased * target);
+        el.innerHTML = current.toLocaleString() + suffix;
+        if (progress < 1) requestAnimationFrame(update);
+    }
+    requestAnimationFrame(update);
+}
+
+// ── HEADER & SCROLL ──
+window.addEventListener('scroll', () => {
+    const header = document.getElementById('site-header');
+    if (header) {
+        header.style.background = window.scrollY > 60 ? 'rgba(0,0,0,0.95)' : 'rgba(10,10,10,0.85)';
+    }
+});
+
+// ── COOKIE CONSENT ──
+window.handleCookie = function(choice) {
+    localStorage.setItem('cyberpunk_cookie_consent', choice);
+    const banner = document.getElementById('cookie-banner');
+    if (banner) banner.classList.remove('show');
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (!localStorage.getItem('cyberpunk_cookie_consent')) {
+        setTimeout(() => {
+            const banner = document.getElementById('cookie-banner');
+            if (banner) banner.classList.add('show');
+        }, 2000);
+    }
+});
+
+console.log('Cyberpunk Barbers Static Site Loaded');
+</script>
+</body>
+</html>

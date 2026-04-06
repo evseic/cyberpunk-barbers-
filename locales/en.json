@@ -1,0 +1,194 @@
+{
+  "seo": {
+    "siteName": "Cyberpunk Barbers",
+    "home": {
+      "title": "Cyberpunk Barbers | Men's Barbershop in Vilnius, Lithuania",
+      "description": "Professional haircuts and beard trims in Vilnius Naujamiestis. Haircut from €30, beard trim from €25, combo from €45. Book via Treatwell!",
+      "canonical": "/en/"
+    },
+    "services": {
+      "title": "Services | Haircuts & Beard Trims – Cyberpunk Barbers Vilnius",
+      "description": "Men's haircut from €30, beard trim from €25, combo from €45. Book your appointment at our Vilnius barbershop via Treatwell.",
+      "canonical": "/en/services/"
+    },
+    "about": {
+      "title": "About Us | Cyberpunk Barbers – Unique Barbershop in Vilnius",
+      "description": "Cyberpunk Barbers is a unique men's barbershop in Vilnius Naujamiestis — experienced barbers, bold atmosphere, great results.",
+      "canonical": "/en/about/"
+    },
+    "contact": {
+      "title": "Contact | Cyberpunk Barbers Vilnius, Naujamiestis",
+      "description": "Find us in Vilnius Naujamiestis. Book via Treatwell, check our address and opening hours.",
+      "canonical": "/en/contact/"
+    },
+    "alts": {
+      "haircut": "Men's haircut Cyberpunk Barbers Vilnius",
+      "beard": "Beard trim barbershop Vilnius Lithuania",
+      "shop": "Cyberpunk Barbers barbershop Naujamiestis Vilnius"
+    },
+    "og": {
+      "type": "website",
+      "locale": "en_US",
+      "image": "/assets/og-image.jpg"
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "barbers": "Barbers",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "book": "Book Now",
+    "bookMobile": "Book Appointment"
+  },
+  "hero": {
+    "eyebrow": "Established 2024 · Vilnius, Lithuania",
+    "title1": "YOU DON'T JUST GET A",
+    "title2": "HAIRCUT HERE.",
+    "sub": "You get the whole upgrade. Barbers who get it, vibes you'll remember, cuts that hit different.",
+    "ctaBook": "Book Appointment",
+    "ctaSee": "See The Vibe",
+    "scroll": "Scroll"
+  },
+  "ticker": {
+    "item1": "Cuts",
+    "item2": "Sculpted Beards",
+    "item3": "Premium Experience",
+    "item4": "Vilnius' Finest",
+    "item5": "Book Today",
+    "item6": "Fade Specialists",
+    "item7": "Hot Towel Treatment",
+    "item8": "Since 2024"
+  },
+  "stats": {
+    "cutsDone": "Cuts Done",
+    "satisfaction": "Satisfaction Rate",
+    "masterBarbers": "Master Barbers",
+    "location": "Location — Vilnius"
+  },
+  "barbersHeader": {
+    "eyebrow": "The Crew",
+    "title1": "MEET THE",
+    "title2": "OPERATIVES",
+    "sub": "Six distinct personalities. One shared obsession — making you look like your best self."
+  },
+  "barbersDesc": {
+    "nedas": {
+      "role": "Senior Barber",
+      "short": "Always sharp, always on point. Nedas gets the details right every time.",
+      "book": "Book with Nedas",
+      "ig": "https://www.instagram.com/nedasbarber/",
+      "bio": "<p>Nedas. The OG from Šiauliai. The punkest punk. The founder of Cyber Punk Barbers.</p><p>Cyber Punk is his blood. From the first brick, the first chair. Not just a studio, but a place with character. Just like him.</p><p>He's been cutting since the world started cracking—since 2008, when the financial crisis swept suits off office desks. Instead of a manager's chair—he took scissors in hand. And since then—he hasn't stopped. 17 years behind the chair.</p><p>If you haven't been to him yet—you haven't been to a real barber. Nedas doesn't waste your time or words. His cut is like a strike: fast, precise, full of character. Conversations—only if there's something to say. Silence—if it's better without words. An occasional curse word drops here and there. After a cut, he usually hears one word: \"Dope.\"</p><p>In his chair, there's one unwritten rule: \"The devil is in the details. Or God.\"</p><p>If you accidentally fall asleep—don't worry. He'll still cut. And cut well.</p><p>Come in. Give it a try. The time to change is now.</p>"
+    },
+    "denis": {
+      "role": "Style Engineer",
+      "short": "Brings the energy and the finest fades. Denis knows exactly what suits you.",
+      "book": "Book with Denis",
+      "ig": "https://www.instagram.com/denio.laboratory/",
+      "bio": "<p>@denio.laboratory - instead of balancing tires, he chose people's heads. Denis left the garage and realized the barber chair was closer to his heart. He used to be an auto mechanic, but one day he argued with his boss, and while smoking outside, remembered how he used to cut his grandpa and brother's hair at fifteen. That same evening he called a barbershop, told his story, and got the job. His first chair was on Gediminas Avenue—taught by a Ukrainian master, later he met Nedas, our barbershop gangster, who became his true mentor. And that's how it started—7 years behind the chair.</p><p>Today he says: barbering isn't a job, it's a lifestyle. He sees himself cutting hair his whole life. There are no limits here, just like in relationships—the person is always unique, always different. Denis matured over these years: he understood a lot about people, humanity, and that respect and listening aren't just tricks, but essential tools, exactly as important as scissors.</p><p>His signature? Charisma. That unteachable spark you either have or you don't. He comes to work to bring good energy, and expects the same from others. He calls his philosophy \"synthesis\"—exchanging emotion for emotion. He doesn't drag problems to the chair, they stay outside the door.</p><p>After a cut, clients usually just say a simple \"thanks\". And that's enough for him. Because here, the point isn't just the lines or how clean the fade is—it's about the connection, the atmosphere, about the two of you becoming like-minded for an hour.</p><p>He's grateful to those who follow him, travel with him, and change with him. Because in barbering, he says, just like in life—there is no perfection, only the journey.</p><p>One sentence for those who haven't been to Denis yet: \"It's not just a haircut here, it's synthesis.\"</p>"
+    },
+    "erikas": {
+      "role": "Specialist",
+      "short": "Clean lines and classic cuts. Erikas executes the craft with pure focus.",
+      "book": "Book with Erikas",
+      "ig": "https://www.instagram.com/evseicik/",
+      "bio": "<p>Erikas. He's no saint and no artist—just a guy with clippers in his hand. He's been cutting for 2.5 years. Not because it was a dream, but because he needed the cash. He was looking for himself, found scissors, clippers, and his place among people who don't talk much.</p><p>Over these years he changed as much as a person changes when seeing different faces every day while staying the same himself—quiet, calm, not a morning person. He hates rules, his signature is simple: no fancy tricks, just a straight line and freedom. What sets him apart is that he doesn't try to please anyone. And maybe that's why people keep coming back.</p><p>What drives him most? Co-workers, freedom, and that peace between cuts when you can have a smoke and laugh that life is here and now. He doesn't like music much, but if something's playing, it's Lady Gaga, because why not—the world is absurd anyway.</p><p>The client? Anyone works. If you fall asleep in the chair—he won't wake you. If you don't talk—even better. After a cut, people usually say nothing. Why should they? The mirror says it all.</p>"
+    },
+    "vlad": {
+      "role": "Detail Master",
+      "short": "Quiet precision. Vlad lets the results speak for themselves.",
+      "book": "Book with Vlad",
+      "ig": "https://www.instagram.com/vlad.arh/",
+      "bio": "<p>Vlad. @vlad.arh. The one who got into barbering purely for the vibe.</p><p>Clients don't just come for the fade. They return for the conversation, the atmosphere. Over time those same faces become friends—they say hi, tell him about their travels, and leave saying \"awesome\" or \"fucking great, as always\".</p><p>Vlad likes open and bold people. The ones who tell him what they like and what they don't. Criticism here doesn't offend—it's the path to a better cut, to growth.</p><p>He drives to work in a Mercedes. Puts on minimal house or techno in the shop, takes a sip of his Monster energy—and it's clear: letzzzz go, let's cut.</p><p>When asked what he'd do if a client fell asleep, Vlad's answer is simple: \"What do you mean, what—I'd cut. Let them sleep. Total Relax FM vibe.\"</p>"
+    },
+    "martynas": {
+      "role": "Creative Lead",
+      "short": "Next-level scissor work. Martynas turns every cut into a masterpiece.",
+      "book": "Book with Martynas",
+      "ig": "https://www.instagram.com/martynas_balaika/",
+      "bio": "<p>Martynas. @martynas_balaika. Five years behind the chair—and still carrying the exact same vibe.</p><p>He came to barbering for the vibe. Arrived in Vilnius, walked into a barbershop and saw it—everyone is free here, there are no rules. That's when he decided: this is my place.</p><p>He finished his training at Barzdaskučiai and Red Light Barbers, and now creates his own rhythm—somewhere between hip-hop, trap, and UK drill beats.</p><p>When he sends a client off with a smile and says: \"You're getting it today ;)\"—he knows everything was done right. After a cut, the most common word he hears is: \"Icy.\"</p><p>There are no rules in his chair. If you fall asleep—you'll hear: \"Wake up bro.\" If you're sitting down for the first time—just know, this isn't a beauty salon.</p><p>Between cuts—herbal tea, beer, laughter. Between thoughts—the dream of owning his own salon. His signature—freedom, music, and good energy.</p><p>It's gonna be legit, bro. Always.</p>"
+    },
+    "evaldas": {
+      "role": "Classic Specialist",
+      "short": "Old school craft meets modern edge. Good vibes guaranteed.",
+      "book": "Book with Evaldas",
+      "ig": "https://www.instagram.com/aktyvus/",
+      "bio": "<p>Evaldas. @aktyvus. The youngest by tenure, but already seasoned by life.</p><p>Just six months ago he didn't even know how to hold a pair of scissors, and today—he shapes heads like blocks of marble. In his eyes, every cut is a sculpture. And the tools are just an extension of his hands.</p><p>He came into barbering looking for freedom. He wanted a craft where there was room for creativity, growth, and constant learning. And he found it. Now he's a DJ, a yoga teacher, and a barber all in one—three different worlds merging into one: music, rhythm, and precise movements.</p><p>There are no strict rules in Evaldas' chair. Just respect, listening, and good vibes. The ideal client? Anyone with hair. If you fall asleep—he won't wake you up, he'll even tuck you in so you rest better.</p><p>Coffee flows like fuel here—so much your ears might ring. Between cuts he rolls \"Golden Virginia\" tobacco. In the background you might hear an aggressive acid track—his soundtrack for creating.</p><p>And if you haven't been to Evaldas yet, remember: you don't just come to him for a haircut. You step into his space. And there, your head becomes a canvas. A sculpture.</p>"
+    }
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title1": "THE",
+    "title2": "MENU",
+    "sub": "No complicated packages. Just three things done exceptionally well.",
+    "cards": {
+      "1": {
+        "badge": "Most Popular",
+        "name": "HAIRCUT",
+        "desc": "Custom fade, wash, and style tailored to your skull structure, face shape, and lifestyle.",
+        "duration": "45 MIN",
+        "price": "from 30 EUR"
+      },
+      "2": {
+        "name": "SCULPTED BEARD",
+        "desc": "Hot towel treatment, precision line-up, and oil infusion. We shape what you've got into something you're proud to wear.",
+        "duration": "30 MIN",
+        "price": "from 25 EUR"
+      },
+      "3": {
+        "name": "CYBER COMBO",
+        "desc": "Full haircut plus beard sculpt. Walk in looking like a draft, leave looking like the final version.",
+        "duration": "75 MIN",
+        "price": "from 45 EUR"
+      }
+    },
+    "cta": "Book This Service"
+  },
+  "gallery": {
+    "eyebrow": "The Vibe",
+    "title1": "FEEL IT",
+    "title2": "BEFORE YOU COME",
+    "sub": "The kind of place you want to stay a bit longer.",
+    "labels": {
+      "vibe": "Vibe & Mood",
+      "craft": "Detail & Craft",
+      "interior": "The Atmosphere"
+    }
+  },
+  "reviews": {
+    "eyebrow": "What They Say",
+    "title1": "REAL TALK",
+    "title2": "FROM THE CHAIR",
+    "sub": "We let the clients do the talking.",
+    "badgeText": "Verify on Treatwell ↗"
+  },
+  "booking": {
+    "eyebrow": "Secure the Spot",
+    "title1": "YOUR UPGRADE",
+    "title2": "AWAITS",
+    "sub": "No more waiting around. Grab your slot before someone else does. Our barbers are in high demand and walk-ins are rare. Lock it in.",
+    "cta": "Book on Treatwell"
+  },
+  "footer": {
+    "tagline": "Not just a haircut. An experience. Come curious, leave upgraded. Vilnius' premier atmosphere-first barbershop.",
+    "colNavigate": "Navigate",
+    "colHours": "Hours",
+    "hours1": "Mon – Fri: 10:00 – 20:00",
+    "hours2": "Saturday: 10:00 – 18:00",
+    "hours3": "Sunday: Closed",
+    "colLocation": "Location",
+    "loc1": "Švitrigailos g. 36",
+    "loc2": "Vilnius, LT-03228",
+    "loc3": "Lithuania",
+    "copy": "© 2026 Cyberpunk Barbers. All rights reserved.",
+    "city": "Vilnius, Lithuania"
+  },
+  "cookie": {
+    "policy": "Cookie Policy",
+    "text": "We use minimal cookies to ensure you get the best experience on our website. You can accept or decline non-essential cookies.",
+    "accept": "Accept ✓",
+    "decline": "Decline"
+  },
+  "modal": {
+    "book": "Book Appointment"
+  }
+}
