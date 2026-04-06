@@ -167,6 +167,9 @@
     background: var(--c-text);
     transition: var(--transition);
   }
+  .hamburger.active span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  .hamburger.active span:nth-child(2) { opacity: 0; }
+  .hamburger.active span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
   /* ── MOBILE NAV ── */
   .mobile-nav {
@@ -184,7 +187,7 @@
     pointer-events: none;
     transition: opacity var(--transition);
   }
-  .mobile-nav.open { opacity: 1; pointer-events: all; }
+  .mobile-nav.open { display: flex; opacity: 1; pointer-events: all; }
   .mobile-nav a {
     font-family: var(--font-display);
     font-size: 48px;
@@ -2334,7 +2337,7 @@ function toggleMenu() {
 }
 
 // Close mobile nav on link click
-document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+document.querySelectorAll('.mobile-nav a').forEach(link => {
     link.addEventListener('click', () => {
         const nav = document.getElementById('mobile-nav');
         if (nav && nav.classList.contains('open')) toggleMenu();
