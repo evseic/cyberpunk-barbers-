@@ -38,13 +38,23 @@ function copyRecursiveSync(src, dest) {
 }
 
 function translateHtml(html, langData) {
-    // Basic regex-based translation for data-i18n attributes
-    // In a real scenario, a DOM parser like JSDOM would be safer, 
-    // but for this template, regex is efficient.
-    return html.replace(/data-i18n="([^"]+)"([^>]*>)([^<]*)/g, (match, key, rest, existingContent) => {
+    // 1. First, handle the simple one-line translations
+    let updatedHtml = html.replace(/data-i18n="([^"]+)"([^>]*>)([^<]*)/g, (match, key, rest, existingContent) => {
+        const translation = getTranslation(langData, key);
+        // Only replace if it's the simple case (no nested tags indicated by the original regex)
+        // If the key is for a bio, we skip it here and handle it in step 2
+        if (key.includes('.bio')) return match; 
+        return `data-i18n="${key}"${rest}${translation || existingContent}`;
+    });
+
+    // 2. Specifically handle the complex "bio" blocks with nested HTML
+    // We look for the data-i18n attribute and match until the closing </div>
+    updatedHtml = updatedHtml.replace(/data-i18n="(barbersDesc\.[^.]+\.bio)"([^>]*>)([\s\S]*?)(?=<\/div>)/g, (match, key, rest, existingContent) => {
         const translation = getTranslation(langData, key);
         return `data-i18n="${key}"${rest}${translation || existingContent}`;
     });
+
+    return updatedHtml;
 }
 
 function generateSchema(lang, pageId) {

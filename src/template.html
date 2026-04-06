@@ -1021,17 +1021,29 @@
   }
 
   .counter-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .counter-item {
-    text-align: center;
-    padding: 0 24px;
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
     border-right: 1px solid var(--c-border);
+  }
+
+  @media (max-width: 768px) {
+    .counter-item { border-right: none; border-bottom: 1px solid var(--c-border); padding-bottom: 24px; }
+    .counter-item:last-child { border-bottom: none; }
   }
 
   .counter-item:last-child { border-right: none; }
@@ -1397,7 +1409,7 @@
           <div class="barber-role" data-i18n="barbersDesc.nedas.role" style="color: var(--c-primary);">Senior Barber</div>
           <div class="barber-name">NEDAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.nedas.short">Always sharp, always on point. Nedas gets the details right every time.</div>
-          <div class="barber-modal-desc" style="display: none;">
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.nedas.bio">
             <p><strong style="color: var(--c-text);">Nedas.</strong> An OG from Šiauliai. A true punk. Founder of Cyber Punk Barbers.</p>
             <p>Cyber Punk is in his blood. From the very first brick, from the very first chair. Not just a studio — a place with character. Just like him.</p>
             <p>He’s been cutting since the world started cracking — since 2008, when the crisis wiped suits off office desks. Instead of a manager’s chair — scissors in hand. And he never stopped. 17 years behind the chair.</p>
@@ -1433,7 +1445,7 @@
           <div class="barber-role" data-i18n="barbersDesc.denis.role" style="color: var(--c-secondary);">Style Engineer</div>
           <div class="barber-name">DENIS</div>
           <div class="barber-desc" data-i18n="barbersDesc.denis.short">Brings the energy and the finest fades. Denis knows exactly what suits you.</div>
-          <div class="barber-modal-desc" style="display: none;">
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.denis.bio">
             <p><span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-secondary);">@denio.laboratory</span> – instead of balancing wheels, he chose working with heads.</p>
             <p>Denis left the garage and realized that a barber’s chair was closer to his heart. He used to be an auto mechanic, but one day, after an argument with his boss, while smoking outside, he remembered how, at fifteen, he used to cut his grandfather’s and brother’s hair. That same evening, he called a barbershop, told his story—and they took him in.</p>
             <p>His first chair was on Gediminas Avenue—there he was taught by a Ukrainian barber. Later, he met Neda, the “gangster” of our barbershop, who became a true mentor.</p>
@@ -1472,7 +1484,7 @@
           <div class="barber-role" data-i18n="barbersDesc.erikas.role" style="color: var(--c-tertiary);">Precision Specialist</div>
           <div class="barber-name">ERIKAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.erikas.short">Clean lines and classic cuts. Erikas executes the craft with pure focus.</div>
-          <div class="barber-modal-desc" style="display: none;">
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.erikas.bio">
             <p><strong style="color: var(--c-text);">Erikas.</strong> Not a saint, not an artist — just a guy with clippers in his hand. Cutting for 2.5 years now. Not because it was a dream, but because he needed money. He was searching for himself, found scissors, clippers, and his place among people who don’t talk too much.</p>
             <p>Over those years, he’s changed as much as someone changes when they see different faces every day but remain the same inside — quiet, calm, not a morning person. He doesn’t like rules. His style is simple: no unnecessary tricks, just a clean line and freedom. What sets him apart is that he doesn’t try to please anyone. And maybe that’s exactly why people come back.</p>
             <p>What drives him the most? Colleagues, freedom, that calm between haircuts — when you can take a smoke and laugh about life being here and now. He’s not into music, but if something’s playing, it might be Lady Gaga — why not, the world is absurd anyway.</p>
@@ -1509,7 +1521,7 @@
           <div class="barber-role" data-i18n="barbersDesc.vlad.role" style="color: var(--c-primary);">Detail Master</div>
           <div class="barber-name">VLAD</div>
           <div class="barber-desc" data-i18n="barbersDesc.vlad.short">Quiet precision. Vlad lets the results speak for themselves.</div>
-          <div class="barber-modal-desc" style="display: none;">
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.vlad.bio">
             <p><strong style="color: var(--c-text);">Vlad.</strong> <span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-primary);">@vlad.arh.</span> The one who got into barbering for the vibe.</p>
             <p>Clients don’t come just for the fade. They come back for the conversation, for the atmosphere. Over time, familiar faces turn into friends — they say hello, share how their trip went, and leave with a “f*cking good” or “amazing, as always.”</p>
             <p>Vlad likes open and bold people. The ones who say what they like — and what they don’t. Criticism doesn’t offend here — it’s the path to a better cut, to growth.</p>
@@ -1544,7 +1556,7 @@
           <div class="barber-role" data-i18n="barbersDesc.martynas.role" style="color: var(--c-secondary);">Creative Lead</div>
           <div class="barber-name">MARTYNAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.martynas.short">Next-level scissor work. Martynas turns every cut into a masterpiece.</div>
-          <div class="barber-modal-desc" style="display: none;">
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.martynas.bio">
             Martynas. @martynas_balaika<br><br>
             Five years behind the chair — and still carrying the same vibe.<br><br>
             He didn’t come into barbering just for a job — he came for the energy.<br>
@@ -1590,7 +1602,7 @@
           <div class="barber-role" data-i18n="barbersDesc.evaldas.role" style="color: var(--c-tertiary);">Classic Specialist</div>
           <div class="barber-name">EVALDAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.evaldas.short">Old school craft meets modern edge. Good vibes guaranteed.</div>
-          <div class="barber-modal-desc" style="display: none;">
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.evaldas.bio">
             <p><strong style="color: var(--c-text);">Evaldas.</strong> <span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-primary);">@aktyvus</span></p>
             <p>The youngest in experience, but already shaped by life.</p>
             <p>Just half a year ago, he didn’t know how to hold scissors. Today, he shapes heads as if they were blocks of marble. For him, every haircut is a sculpture — and tools are an extension of his hands.</p>
@@ -2436,6 +2448,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 console.log('Cyberpunk Barbers Static Site Loaded');
+  // Force Autoplay for Videos (Desktop & Mobile)
+  const forcePlayVideos = () => {
+    const videos = document.querySelectorAll('video');
+    videos.forEach(v => {
+      if (v.paused) v.play().catch(e => console.log("Play prevented", e));
+    });
+  };
+
+  document.addEventListener('click', forcePlayVideos, { once: true });
+  document.addEventListener('touchstart', forcePlayVideos, { once: true });
+  document.addEventListener('mousedown', forcePlayVideos, { once: true });
+
+  window.addEventListener('load', function() {
+    forcePlayVideos();
+  });
 </script>
 </body>
 </html>

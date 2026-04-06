@@ -1065,17 +1065,29 @@
   }
 
   .counter-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .counter-item {
-    text-align: center;
-    padding: 0 24px;
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
     border-right: 1px solid var(--c-border);
+  }
+
+  @media (max-width: 768px) {
+    .counter-item { border-right: none; border-bottom: 1px solid var(--c-border); padding-bottom: 24px; }
+    .counter-item:last-child { border-bottom: none; }
   }
 
   .counter-item:last-child { border-right: none; }
@@ -1396,11 +1408,11 @@
     </div>
     <div class="counter-item reveal reveal-delay-1">
       <div class="counter-num" data-target="98">0<span>%</span></div>
-      <div class="counter-label" data-i18n="stats.satisfaction">Klientų Pasitenkinimas</div>
+      <div class="counter-label" data-i18n="stats.satisfaction">Pasitenkinimo lygis</div>
     </div>
     <div class="counter-item reveal reveal-delay-2">
       <div class="counter-num" data-target="6">0</div>
-      <div class="counter-label" data-i18n="stats.masterBarbers">Pro Meistrai</div>
+      <div class="counter-label" data-i18n="stats.masterBarbers">Meistrai</div>
     </div>
     <div class="counter-item reveal reveal-delay-3">
       <div class="counter-num" data-target="1">0</div>
@@ -1441,15 +1453,7 @@
           <div class="barber-role" data-i18n="barbersDesc.nedas.role" style="color: var(--c-primary);">Vyr. Meistras</div>
           <div class="barber-name">NEDAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.nedas.short">Visada aštru, visada į dešimtuką. Nedas viską daro idealiai.</div>
-          <div class="barber-modal-desc" style="display: none;">
-            <p><strong style="color: var(--c-text);">Nedas.</strong> An OG from Šiauliai. A true punk. Founder of Cyber Punk Barbers.</p>
-            <p>Cyber Punk is in his blood. From the very first brick, from the very first chair. Not just a studio — a place with character. Just like him.</p>
-            <p>He’s been cutting since the world started cracking — since 2008, when the crisis wiped suits off office desks. Instead of a manager’s chair — scissors in hand. And he never stopped. 17 years behind the chair.</p>
-            <p>If you haven’t been to him yet — you haven’t been to a real barber. Nedas wastes neither your time nor his words. A haircut is like a hit: fast, precise, with character. Conversations — if there’s something worth saying. Silence — if it’s better that way. Maybe a swear word or two. After the cut, he usually hears just one word: “F*cking good.”</p>
-            <p>In his chair, there’s one unwritten rule: “The devil is in the details. Or God.”</p>
-            <p>If you happen to fall asleep — don’t worry. He’ll keep cutting. And he’ll do it well.</p>
-            <p>Come through. Try it. The time to change is now.</p>
-          </div>
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.nedas.bio"><p>Nedas. OG iš Šiaulių. Pankų pankas. Cyber Punk Barbers įkūrėjas.</p><p>Cyber Punk – jo kraujas. Nuo pirmos plytos, nuo pirmos kėdės. Ne studija, o vieta su charakteriu. Kaip ir jis pats.</p><p>Kerpa nuo tada, kai pasaulis pradėjo trūkinėti – nuo 2008-ųjų, kai krizė nušlavė kostiumus nuo ofisų stalų. Vietoj darbų vadovo kėdės – žirklės į rankas. Ir nuo tada – nesustojo. 17 metų už kėdės.</p><p>Jei dar nesi buvęs pas jį – dar nesi buvęs pas tikrą barberį. Nedas nešvaisto nei tavo laiko, nei žodžių. Kirpimas – kaip dūžis: greitas, tikslus, su charakteriu. Pokalbiai – jei yra apie ką. Tyla – jei geriau be jos. Vienas kitas keiksmažodis. Po kirpimo dažniausiai išgirsta vieną žodį: „Zajabys.“</p><p>Savo kėdėj turi vieną nerašytą taisyklę: „Velnias slepiasi detalėse. Arba Dieve.“</p><p>Jei netyčia užmigsi – nepergyvenk. Jis vis tiek kirps. Ir kirps gerai.</p><p>Ateik. Pabandyk. Laikas keistis – yra dabar.</p></div>
           <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-primary);" data-i18n="barbersDesc.nedas.book">Registruotis pas Nedą</a>
           <a href="https://www.instagram.com/nedasbarber/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
         </div>
@@ -1477,18 +1481,7 @@
           <div class="barber-role" data-i18n="barbersDesc.denis.role" style="color: var(--c-secondary);">Stiliaus Inžinierius</div>
           <div class="barber-name">DENIS</div>
           <div class="barber-desc" data-i18n="barbersDesc.denis.short">Gera energija ir patys švariausi fade'ai. Denis puikiai žino, kas tau tinka.</div>
-          <div class="barber-modal-desc" style="display: none;">
-            <p><span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-secondary);">@denio.laboratory</span> – instead of balancing wheels, he chose working with heads.</p>
-            <p>Denis left the garage and realized that a barber’s chair was closer to his heart. He used to be an auto mechanic, but one day, after an argument with his boss, while smoking outside, he remembered how, at fifteen, he used to cut his grandfather’s and brother’s hair. That same evening, he called a barbershop, told his story—and they took him in.</p>
-            <p>His first chair was on Gediminas Avenue—there he was taught by a Ukrainian barber. Later, he met Neda, the “gangster” of our barbershop, who became a true mentor.</p>
-            <p>And that’s how it started—7 years behind the chair.</p>
-            <p>Today, he says barbering is not a job, but a way of life. He sees himself cutting hair for the rest of his life. There are no limits here, just like in relationships—every person is unique, always different. Over these years, Denis has matured: he’s learned a lot about people, about humanity, about how respect and listening are not tricks, but essential tools—just as important as scissors.</p>
-            <p>His signature? Charisma. That unteachable spark—you either have it or you don’t. He comes to work to bring a good mood, and expects the same from others. He calls his philosophy “synthesis”—an exchange of emotion for emotion. Problems don’t enter the chair; they stay outside the door.</p>
-            <p>After a haircut, clients usually say a simple “thank you.” And that’s enough for him. Because it’s not just about clean lines or a perfect fade—it’s about connection, atmosphere, about how, for an hour, you and he become like-minded.</p>
-            <p>He’s grateful to those who follow him, travel with him, grow with him. Because in barbering, he says, just like in life—there’s no perfection, only the journey.</p>
-            <p>One sentence for those who haven’t visited Denis yet:<br>
-            “This is not just a haircut—this is synthesis.”</p>
-          </div>
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.denis.bio"><p>@denio.laboratory - vietoj ratų balansavimo pasirinko žmonių galvas – Denis paliko garažą ir suprato, kad kirpėjo kėdė jam arčiau širdies. Kadaise buvo automechanikas, bet vieną dieną susipyko su vadovu, rūkydamas lauke prisiminė, kad būdamas penkiolikos kirpo senelį bei brolį. Tą patį vakarą paskambino į kirpyklą, papasakojo savo istoriją ir jį priėmė. Pirmoji kėdė buvo Gedimino prospekte – ten mokė ukrainietis, vėliau sutiko Nedą, mūsų barberinės gangsterį, kuris tapo tikru mokytoju. Ir taip prasidėjo – 7 metai už kėdės.</p><p>Šiandien jis sako: barberystė – ne darbas, o gyvenimo būdas. Jis mato save kerpantį visą gyvenimą. Čia nėra ribų, kaip ir santykiuose – žmogus visada unikalus, visada kitaip. Denis subrendo per šituos metus: daug suprato apie žmones, apie žmogiškumą, apie tai, kad pagarba ir klausymas – ne triukai, o privalomi įrankiai, lygiai tokie pat svarbūs kaip žirklės.</p><p>Jo braižas? Charizma. Tos neišmokstamos kibirkšties gabalas, kurį arba turi, arba ne. Jis į darbą ateina atnešti nuotaikos, o iš kitų tikisi to paties. Savo filosofiją vadina „syntezu“ – mainais emocija už emociją. Problemų į kėdę neneša, jos lieka už durų.</p><p>Po kirpimo klientai dažniausiai pasako paprastą „ačiū“. Ir jam to užtenka. Nes čia esmė ne tik linijose ar fade’o švarume – čia apie santykį, atmosferą, apie tai, kad tu ir jis, valandai, tampat bendraminčiais.</p><p>Dėkingas tiems, kurie jį seka, keliauja kartu, keičiasi kartu. Nes barberystėj, sako, kaip gyvenime – tobulybės nėra, yra tik kelias.</p><p>Vienas sakinys tiems, kas dar nebuvę pas Denisą: „Čia ne tik kirpimas, čia sintezė.“</p></div>
           <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-secondary);" data-i18n="barbersDesc.denis.book">Registruotis pas Denis</a>
           <a href="https://www.instagram.com/denio.laboratory/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
         </div>
@@ -1516,16 +1509,7 @@
           <div class="barber-role" data-i18n="barbersDesc.erikas.role" style="color: var(--c-tertiary);">Specialistas</div>
           <div class="barber-name">ERIKAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.erikas.short">Švarios linijos ir klasika. Erikas susikaupęs atlieka savo darbą.</div>
-          <div class="barber-modal-desc" style="display: none;">
-            <p><strong style="color: var(--c-text);">Erikas.</strong> Not a saint, not an artist — just a guy with clippers in his hand. Cutting for 2.5 years now. Not because it was a dream, but because he needed money. He was searching for himself, found scissors, clippers, and his place among people who don’t talk too much.</p>
-            <p>Over those years, he’s changed as much as someone changes when they see different faces every day but remain the same inside — quiet, calm, not a morning person. He doesn’t like rules. His style is simple: no unnecessary tricks, just a clean line and freedom. What sets him apart is that he doesn’t try to please anyone. And maybe that’s exactly why people come back.</p>
-            <p>What drives him the most? Colleagues, freedom, that calm between haircuts — when you can take a smoke and laugh about life being here and now. He’s not into music, but if something’s playing, it might be Lady Gaga — why not, the world is absurd anyway.</p>
-            <p>Clients? Everyone’s welcome. If you fall asleep in the chair — he won’t wake you. If you don’t talk — even better. After the cut, people usually don’t say much. Why would they? The mirror says everything.</p>
-            <p>In his free time, he sells furniture, likes to travel, but nothing really stresses him — the world is on fire, and he’s chill about it. Coffee instead of beer. Bolt Drive instead of Audi or BMW.</p>
-            <p>One sentence for those who haven’t been to him yet:<br>
-            “Too expensive.”</p>
-            <p>And one more unwritten rule: when you sit in his chair, you understand — there are no rules here.</p>
-          </div>
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.erikas.bio"><p>Erikas. Ne šventasis jis ir ne menininkas – tik vyrukas su mašinėle rankoj. 2,5 metų jau kerpa. Ne todėl, kad svajonė, o todėl, kad reikėjo bapkių. Ieškojo savęs, rado žirkles, mašinėlę ir savo vietą tarp žmonių, kurie daug nekalba.</p><p>Per tuos metus pasikeitė tiek, kiek pasikeičia žmogus, kuris kiekvieną dieną mato kitus veidus, bet pats lieka tas pats – tylus, ramus, ne ryto žmogus. Taisyklių nemėgsta, braižas paprastas: nėra jokių mandrybių, tik tiesi linija ir laisvė. Nuo kitų skiriasi tuo, kad niekam nesistengia įtikti. Ir gal dėl iš to žmonės grįžta.</p><p>Kas labiausiai veža? Kolegos, laisvė, ta ramybė tarp kirpimų, kai gali užtraukti dūmą ir pasijuokti, kad gyvenimas čia ir dabar. Muzikos nemėgsta, bet jei jau kas groja, tai Lady Gaga, nes kodėl gi ne – pasaulis vis tiek absurdiškas.</p><p>Klientas? Visi tinkami. Jei užmiegi kėdėj – jis nepažadins. Jei nekalbi – dar geriau. Po kirpimo žmonės dažniausiai ir nesako nieko. O kam? Veidrodis pasako viską.</p></div>
           <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-tertiary);" data-i18n="barbersDesc.erikas.book">Registruotis pas Eriką</a>
           <a href="https://www.instagram.com/evseicik/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
         </div>
@@ -1553,14 +1537,7 @@
           <div class="barber-role" data-i18n="barbersDesc.vlad.role" style="color: var(--c-primary);">Detalių Meistras</div>
           <div class="barber-name">VLAD</div>
           <div class="barber-desc" data-i18n="barbersDesc.vlad.short">Tyli precizika. Už Vladą kalba jo rezultatai.</div>
-          <div class="barber-modal-desc" style="display: none;">
-            <p><strong style="color: var(--c-text);">Vlad.</strong> <span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-primary);">@vlad.arh.</span> The one who got into barbering for the vibe.</p>
-            <p>Clients don’t come just for the fade. They come back for the conversation, for the atmosphere. Over time, familiar faces turn into friends — they say hello, share how their trip went, and leave with a “f*cking good” or “amazing, as always.”</p>
-            <p>Vlad likes open and bold people. The ones who say what they like — and what they don’t. Criticism doesn’t offend here — it’s the path to a better cut, to growth.</p>
-            <p>He pulls up to work in a Mercedes. In the shop, he throws on minimal house or techno, takes a sip of his Monster — and that’s it: let’s go, time to cut.</p>
-            <p>Ask him what he’d do if a client fell asleep, and his answer is simple:<br>
-            “What do you mean what — I’d keep cutting. Let him sleep. Full-on Relax FM vibe.”</p>
-          </div>
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.vlad.bio"><p>Vlad. @vlad.arh. Tas, kuris į barberio kelią atėjo dėl vaibooo.</p><p>Klientai ateina ne tik dėl feiduko. Jie grįžta dėl pokalbio, dėl atmosferos. Su laiku tie patys veidai virsta draugais – pasisveikina, papasakoja, kaip sekėsi kelionėje, ir išeina su „zajabys“ arba „ahuenai, kaip visad“.</p><p>Vladui patinka atviri ir drąsūs žmonės. Tie, kurie pasako, kas patinka, o kas – ne. Kritika čia nežeidžia – ji kelias į geresnį kirpimą, į augimą.</p><p>Į darbą atvažiuoja su mersu. Barberinėj pasileidžia minimal house ar techno, gurkšteli monstriuko – ir viskas aišku: letzzzz go, varom kirpti.</p><p>Paklausus, ką darytų, jei klientas užmigtų, Vlado atsakymas paprastas: „Ką, ką – kirpčiau. Tegul miega. Visiškas Relax FM vaibas.“</p></div>
           <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-primary);" data-i18n="barbersDesc.vlad.book">Registruotis pas Vladą</a>
           <a href="https://www.instagram.com/vlad.arh/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
         </div>
@@ -1588,25 +1565,7 @@
           <div class="barber-role" data-i18n="barbersDesc.martynas.role" style="color: var(--c-secondary);">Kūrybos Vadas</div>
           <div class="barber-name">MARTYNAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.martynas.short">Žirklių magija. Martynas kiekvieną kirpimą paverčia meno kūriniu.</div>
-          <div class="barber-modal-desc" style="display: none;">
-            Martynas. @martynas_balaika<br><br>
-            Five years behind the chair — and still carrying the same vibe.<br><br>
-            He didn’t come into barbering just for a job — he came for the energy.<br>
-            When he moved to Vilnius, he walked into a barbershop and felt it immediately:<br>
-            there were no strict rules here, just freedom. That’s when he decided — this is my place.<br><br>
-            He completed training at Barber Academy and Red Light Barbers, and now creates his own rhythm — blending hip-hop, trap, and UK drill energy into his work and lifestyle.<br><br>
-            When he sends a client off with a smile and says:<br>
-            “Today you’re gonna get that ;)” — he knows it’s done right.<br><br>
-            After a haircut, the most common word you’ll hear is:<br>
-            “Clean.”<br><br>
-            In his chair, there are no strict rules.<br>
-            If you fall asleep, you’ll hear: “Bro, wake up.”<br>
-            If it’s your first time — just know, this is not a regular beauty salon.<br><br>
-            Between cuts: herbal tea, beer, laughter.<br>
-            Between thoughts: a dream of owning his own barbershop one day.<br><br>
-            His style is freedom, music, and good energy.<br><br>
-            It’s gonna be legit, bro. Always.
-          </div>
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.martynas.bio"><p>Martynas. @martynas_balaika. Penkeri metai už kėdės – ir vis dar su tuo pačiu vaibu.</p><p>Į barberystę atėjo dėl vaibo. Atvažiavo į Vilnių, užėjo į barbershopą ir pamatė – čia visi laisvi, čia nėra taisyklių. Tada ir nusprendė: čia mano vieta.</p><p>Baigė kursus Barzdaskučiuose ir Red Light Barbers, o dabar pats kuria savo ritmą – tarp hip-hopo, trap’o ir UK drill’o beatų.</p><p>Kai paleidžia klientą su šypsena ir pasako: „šiandien gausi ;)“ – žino, kad viskas padaryta teisingai. Po kirpimo dažniausiai girdi vieną žodį – „ledas.“</p><p>Jo kėdėj nėra taisyklių. Jei užmigtum – išgirsi: „Seniukai, kelkis.“ Jei sėdi pirmą kartą – žinok, čia ne grožio salonas.</p><p>Tarp kirpimų – arbatžolės, alus, juokas. Tarp minčių – svajonė turėti savo saloną. Jo braižas – laisvė, muzika ir gera energija.</p><p>Bus legit, seniuk. Visada.</p></div>
           <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-secondary);" data-i18n="barbersDesc.martynas.book">Registruotis pas Martyną</a>
           <a href="https://www.instagram.com/martynas_balaika/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
         </div>
@@ -1634,18 +1593,7 @@
           <div class="barber-role" data-i18n="barbersDesc.evaldas.role" style="color: var(--c-tertiary);">Klasikos Kūrėjas</div>
           <div class="barber-name">EVALDAS</div>
           <div class="barber-desc" data-i18n="barbersDesc.evaldas.short">Old-school klasika ir modernūs sprendimai. Geras vaibas garantuotas.</div>
-          <div class="barber-modal-desc" style="display: none;">
-            <p><strong style="color: var(--c-text);">Evaldas.</strong> <span style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--c-primary);">@aktyvus</span></p>
-            <p>The youngest in experience, but already shaped by life.</p>
-            <p>Just half a year ago, he didn’t know how to hold scissors. Today, he shapes heads as if they were blocks of marble. For him, every haircut is a sculpture — and tools are an extension of his hands.</p>
-            <p>He entered barbering searching for freedom — a space for creativity, growth, and constant learning. And he found it. Today, he is a DJ, yoga teacher, and barber in one — three different worlds coming together into one flow: music, rhythm, and precise movement.</p>
-            <p>In Evaldas’ chair, there are no strict rules — only respect, listening, and pure vibe.<br>
-            His ideal client? Anyone who has hair.</p>
-            <p>If you fall asleep, he won’t wake you — he’ll gently make you comfortable so you can rest peacefully.</p>
-            <p>Coffee flows like fuel here — strong enough to ring in your ears. Between cuts, you might hear the crackle of “Golden Virginia” tobacco. In the background, aggressive acid music may be playing — his creative soundtrack.</p>
-            <p>And if you haven’t been to Evaldas yet, remember this:<br>
-            you don’t just come for a haircut. You enter his space. And there, your head becomes a canvas — a sculpture.</p>
-          </div>
+          <div class="barber-modal-desc" style="display: none;" data-i18n="barbersDesc.evaldas.bio"><p>Evaldas. @aktyvus. Stažu jauniausias, bet gyvenimo jau patrintas.</p><p>Dar prieš pusmetį nemokėjo laikyti žirklių, o šiandien – jau formuoja galvas taip, lyg jos būtų marmuro luitai. Nes jo akyse kiekvienas kirpimas – skulptūra. O įrankiai – rankų pratesimas.</p><p>Į barberio kelią atėjo ieškodamas laisvės. Norėjo veiklos, kur būtų erdvės kūrybai, augimui, nuolatiniam mokymuisi. Ir rado. Dabar jis DJ, jogos mokytojas ir barberis viename – trys skirtingi pasauliai, kurie sueina į vieną: muziką, ritmą ir tikslius judesius.</p><p>Evaldo kėdėj nėra griežtų taisyklių. Tik pagarba, klausymas ir vibe’as. Idealus klientas? Visi, kurie turi plaukus. Jei užmigtum – jis nepažadins, dar apkamšys, kad ramiau ilsėtumeisi.</p><p>Kava čia liejasi kaip kuras – tiek, kad cypia ausyse. Tarp kirpimų sukasi tabakas „Golden Virginia“. Fone gali suskambėti pikta acid muzika – jo soundtrack’as kūrybai.</p><p>Ir jei dar nebuvai pas Evaldą, prisimink: pas jį ateini ne tik pasikirpti. Tu įžengi į jo erdvę. O ten tavo galva virsta drobe. Skulptūra.</p></div>
           <a href="https://www.treatwell.lt/salonas/cyberpunk-barbers/" target="_blank" rel="noopener noreferrer" class="barber-book" style="color: var(--c-tertiary);" data-i18n="barbersDesc.evaldas.book">Registruotis pas Evaldą</a>
           <a href="https://www.instagram.com/aktyvus/" target="_blank" class="ig-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
         </div>
@@ -2487,6 +2435,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 console.log('Cyberpunk Barbers Static Site Loaded');
+  // Force Autoplay for Videos (Desktop & Mobile)
+  const forcePlayVideos = () => {
+    const videos = document.querySelectorAll('video');
+    videos.forEach(v => {
+      if (v.paused) v.play().catch(e => console.log("Play prevented", e));
+    });
+  };
+
+  document.addEventListener('click', forcePlayVideos, { once: true });
+  document.addEventListener('touchstart', forcePlayVideos, { once: true });
+  document.addEventListener('mousedown', forcePlayVideos, { once: true });
+
+  window.addEventListener('load', function() {
+    forcePlayVideos();
+  });
 </script>
 </body>
 </html>

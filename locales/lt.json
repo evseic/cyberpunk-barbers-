@@ -61,8 +61,8 @@
   },
   "stats": {
     "cutsDone": "Atlikti Kirpimai",
-    "satisfaction": "Klientų Pasitenkinimas",
-    "masterBarbers": "Pro Meistrai",
+    "satisfaction": "Pasitenkinimo lygis",
+    "masterBarbers": "Meistrai",
     "location": "Lokacija — Vilnius"
   },
   "barbersHeader": {
